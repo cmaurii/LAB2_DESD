@@ -1,0 +1,6 @@
+Passi: 
+- recuperare axis 
+- recuperare uart
+- recuperare board file
+- recuperare debugger
+- idee generiche
