@@ -4,3 +4,14 @@ Passi:
 - recuperare board file
 - recuperare debugger
 - idee generiche
+
+
+Idee divisione per 3
+- SOTTRAZIONI CON COUNTER 
+ex: x / y = result 
+x - y = resto  count++
+if resto < y then result = count
+if rest > y then resto - y in loop
+
+Pro: - niente divisione
+Contro: - un po' lunga, un po' di variabili
