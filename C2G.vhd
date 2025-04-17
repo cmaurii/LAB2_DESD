@@ -2,7 +2,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.NUMERIC_STD.ALL;
 
-entity provalab2 is
+entity rgb2gray is
     Port (
         clk           : in  std_logic;
         resetn        : in  std_logic;
@@ -17,9 +17,9 @@ entity provalab2 is
         s_axis_tready : out std_logic;
         s_axis_tlast  : in  std_logic
     );
-end provalab2;
+end rgb2gray;
 
-architecture Behavioral of provalab2 is
+architecture Behavioral of rgb2gray is
     type state_type is (rosso, verde, blu,calcolagrigio ,mandaregrigio);
     signal state     : state_type := rosso;
 
