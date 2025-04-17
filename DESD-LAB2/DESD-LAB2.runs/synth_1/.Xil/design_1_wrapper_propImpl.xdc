@@ -1,0 +1,7 @@
+set_property SRC_FILE_INFO {cfile:C:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/DESD-LAB2/DESD-LAB2.srcs/constrs_1/imports/LAB_2/pins.xdc rfile:../../../DESD-LAB2.srcs/constrs_1/imports/LAB_2/pins.xdc id:1} [current_design]
+set_property src_info {type:XDC file:1 line:4 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN U16 [get_ports led_of]
+set_property src_info {type:XDC file:1 line:5 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN E19 [get_ports led_ok]
+set_property src_info {type:XDC file:1 line:6 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN U19 [get_ports led_uf]
