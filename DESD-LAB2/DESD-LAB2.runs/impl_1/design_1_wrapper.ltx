@@ -76,7 +76,8 @@
                                 "nets": [
                                     {
                                         "name": "design_1_i/system_ila_0/U0/probe1_1",
-                                        "isBus": false
+                                        "isBus": false,
+                                        "parentNetId": 7
                                     }
                                 ]
                             },
@@ -304,7 +305,8 @@
                                 "nets": [
                                     {
                                         "name": "design_1_i/system_ila_0/U0/net_slot_0_axis_tready",
-                                        "isBus": false
+                                        "isBus": false,
+                                        "parentNetId": 35
                                     }
                                 ]
                             },
@@ -612,7 +614,8 @@
                                 "nets": [
                                     {
                                         "name": "design_1_i/system_ila_0/U0/net_slot_2_axis_tvalid",
-                                        "isBus": false
+                                        "isBus": false,
+                                        "parentNetId": 56
                                     }
                                 ]
                             },
@@ -628,7 +631,8 @@
                                 "nets": [
                                     {
                                         "name": "design_1_i/system_ila_0/U0/net_slot_2_axis_tready",
-                                        "isBus": false
+                                        "isBus": false,
+                                        "parentNetId": 57
                                     }
                                 ]
                             },
@@ -842,6 +846,100 @@
                                             "leftBit": 0,
                                             "width": 1
                                         }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "parent_nets": [
+                    {
+                        "id": 7,
+                        "name": "design_1_i/bram_writer_0/U0/start_conv",
+                        "state_reg": [
+                            {
+                                "name": "design_1_i/bram_writer_0/U0/FSM_onehot_state_reg[1]",
+                                "states": [
+                                    {
+                                        "name": "write_bram",
+                                        "val": "001"
+                                    },
+                                    {
+                                        "name": "send_aux",
+                                        "val": "010"
+                                    },
+                                    {
+                                        "name": "elaboration",
+                                        "val": "100"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": 35,
+                        "name": "design_1_i/rgb2gray_0/U0/s_axis_tready",
+                        "state_reg": [
+                            {
+                                "name": "design_1_i/rgb2gray_0/U0/FSM_onehot_state_reg[0]",
+                                "states": [
+                                    {
+                                        "name": "send_result",
+                                        "val": "100"
+                                    },
+                                    {
+                                        "name": "wait_division",
+                                        "val": "010"
+                                    },
+                                    {
+                                        "name": "wait_data",
+                                        "val": "001"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": 56,
+                        "name": "design_1_i/rgb2gray_0/U0/m_axis_tvalid",
+                        "state_reg": [
+                            {
+                                "name": "design_1_i/rgb2gray_0/U0/FSM_onehot_state_reg[2]",
+                                "states": [
+                                    {
+                                        "name": "send_result",
+                                        "val": "100"
+                                    },
+                                    {
+                                        "name": "wait_division",
+                                        "val": "010"
+                                    },
+                                    {
+                                        "name": "wait_data",
+                                        "val": "001"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": 57,
+                        "name": "design_1_i/bram_writer_0/U0/s_axis_tready",
+                        "state_reg": [
+                            {
+                                "name": "design_1_i/bram_writer_0/U0/FSM_onehot_state_reg[0]",
+                                "states": [
+                                    {
+                                        "name": "write_bram",
+                                        "val": "001"
+                                    },
+                                    {
+                                        "name": "send_aux",
+                                        "val": "010"
+                                    },
+                                    {
+                                        "name": "elaboration",
+                                        "val": "100"
                                     }
                                 ]
                             }

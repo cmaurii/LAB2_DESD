@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1744905270">
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1744963179">
   <File Type="PA-TCL" Name="design_1_wrapper.tcl"/>
   <File Type="RDS-PROPCONSTRS" Name="design_1_wrapper_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="design_1_wrapper_reports.tcl"/>
@@ -19,18 +19,18 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/imports/template/packetizer - Copia.vhd">
+    <File Path="$PSRCDIR/sources_1/imports/template/packetizer.vhd">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../../Lab2/LAB2_DESD/packetizer - Copia.vhd"/>
-        <Attr Name="ImportTime" Val="1744904699"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../Documents/DIdattica/DESD2025/LAB2/template/packetizer.vhd"/>
+        <Attr Name="ImportTime" Val="1742555583"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
     <File Path="$PSRCDIR/sources_1/imports/template/depacketizer.vhd">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../../Lab2/LAB2_DESD/depacketizer.vhd"/>
-        <Attr Name="ImportTime" Val="1744904666"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../Documents/DIdattica/DESD2025/LAB2/template/depacketizer.vhd"/>
+        <Attr Name="ImportTime" Val="1742555583"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
@@ -43,10 +43,18 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/imports/template/C2G.vhd">
+    <File Path="$PSRCDIR/sources_1/imports/template/division_lut.vhd">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../../Lab2/LAB2_DESD/C2G.vhd"/>
-        <Attr Name="ImportTime" Val="1744904605"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../Documents/DIdattica/DESD2025/LAB2/template/division_lut.vhd"/>
+        <Attr Name="ImportTime" Val="1742555538"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/template/rgb2gray.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../Documents/DIdattica/DESD2025/LAB2/template/rgb2gray.vhd"/>
+        <Attr Name="ImportTime" Val="1742555583"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
@@ -59,10 +67,10 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/imports/template/bram_writer2.vhd">
+    <File Path="$PSRCDIR/sources_1/imports/template/bram_writer.vhd">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../../Lab2/LAB2_DESD/bram_writer2.vhd"/>
-        <Attr Name="ImportTime" Val="1744904485"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../Documents/DIdattica/DESD2025/LAB2/template/bram_writer.vhd"/>
+        <Attr Name="ImportTime" Val="1742555583"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
@@ -84,15 +92,6 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/imports/template/division_lut.vhd">
-      <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="ImportPath" Val="$PPRDIR/../../../../Documents/DIdattica/DESD2025/LAB2/template/division_lut.vhd"/>
-        <Attr Name="ImportTime" Val="1742555538"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
     <File Path="$PSRCDIR/sources_1/imports/template/DESD-LAB2/archive_project_summary.txt">
       <FileInfo>
         <Attr Name="ImportPath" Val="$PPRDIR/../../../../Documents/DIdattica/DESD2025/LAB2/template/DESD-LAB2/archive_project_summary.txt"/>
@@ -100,13 +99,6 @@
       </FileInfo>
     </File>
     <File Path="$PPRDIR/archive_project_summary.txt"/>
-    <File Path="$PGENDIR/sources_1/bd/design_1/hdl/design_1_wrapper.vhd">
-      <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
       <Option Name="TopModule" Val="design_1_wrapper"/>
@@ -138,15 +130,4 @@
     </StratHandle>
     <Step Id="synth_design"/>
   </Strategy>
-  <BlockFileSet Type="BlockSrcs" Name="design_1_led_blinker_0_1"/>
-  <BlockFileSet Type="BlockSrcs" Name="design_1_img_conv_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="design_1_packetizer_0_1"/>
-  <BlockFileSet Type="BlockSrcs" Name="design_1_depacketizer_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="design_1_led_blinker_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="design_1_led_blinker_0_2"/>
-  <BlockFileSet Type="BlockSrcs" Name="design_1_clk_wiz_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="design_1_AXI4Stream_UART_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="design_1_proc_sys_reset_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="design_1_rgb2gray_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="design_1_bram_writer_0_0"/>
 </GenRun>
