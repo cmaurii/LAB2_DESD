@@ -85,29 +85,30 @@ begin
                         -- Otherwise, store the valid data in the buffer
                         else                           
                         -- When handshake at depack master interface => start sending data
-                            if m_axis_tready = '1' then 
                                 data_buffer <= s_axis_tdata;
                                 state <= SEND_DATA; 
-                            end if;
+                            
                         end if;
                     end if;
 
                 when SEND_DATA =>
                     s_axis_tready_int <= '0'; -- While sending data, not ready to receive more
-                    m_axis_tvalid_int <= '1'; -- Ready to send data
 
                         -- In SEND_DATA state, send the buffered data byte to the next module
-                        if m_axis_tready = '1' then
+                        if m_axis_tvalid = '0' then
                             m_axis_tlast <= '0'; -- Tlast set to 0 for first data byte of the new image  
                             next_image <= '0'; -- From now on new image can be processed as the first image
-                            m_axis_tdata <= data_buffer;                               
-                            state <= IDLE; -- To always check handshake 
+                            m_axis_tdata <= data_buffer; 
+                            m_axis_tvalid_int <= '1'; -- Ready to send data                             
                             -- Check if this is the last data
                             if s_axis_tdata = std_logic_vector(to_unsigned(FOOTER, 8)) then
                                 m_axis_tlast <= '1';  
                                 next_image <= '1'; -- New image could be processed 
                                 state <= IDLE;
                             end if;  
+                        elsif m_axis_tvalid = '1' and m_axis_tready ='1' then 
+                            m_axis_tvalid = '0';
+                            state <= IDLE; -- To always check handshake
                         end if;
             end case;
         end if;
