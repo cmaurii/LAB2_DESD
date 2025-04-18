@@ -48,8 +48,8 @@ architecture Behavioral of rgb2gray is
             if resetn = '0' then 
                 state <= rosso;
                 m_axis_tvalid <= '0';
-                m_axis_tdata  <= (others => '0');
-                m_axis_tlast  <= '0';
+                m_axis_tdata <= (others => '0');
+                m_axis_tlast <= '0';
                 s_axis_tready <= '1';
                 r <= (others => '0');
                 g <= (others => '0');
