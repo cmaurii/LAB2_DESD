@@ -33,7 +33,7 @@ architecture rtl of bram_writer is
 
     component bram_controller is
         generic (
-            ADDR_WIDTH: POSITIVE :=4
+            ADDR_WIDTH: POSITIVE :=16
         );
         port (
             clk   : in std_logic;
