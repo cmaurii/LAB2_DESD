@@ -111,14 +111,20 @@ begin
 
     -- Offset counter
     process(clk, aresetn)
+    variable skipClock: std_logic := '0';
+    variable sendPixel: std_logic := '0';
+    variable sendImage: std_logic := '0';
     begin
         if aresetn = '0' then
             is_pixel_done <= '0';
             is_image_done <= '0';
             col <= 0;
             raw <= 0;
+            skipClock := '0';
             conv_addr <= (others => '0');
             real_pixel_address <= 0;
+            sendPixel := '0';
+            sendImage := '0';
             is_pixel_valid <= '0';
         elsif rising_edge(clk) then
             -- Reset Logic bit
@@ -127,36 +133,49 @@ begin
 
             -- Counter Logic
             if  is_counter_enabled = '1' then
-
-                --Update the convolution matrix position
-                if col = 2 then
-                    col <= 0;
-                    if raw = 2 then
-                        raw <= 0;
-                        is_pixel_done <= '1';
-                        real_pixel_address <= real_pixel_address + 1;
+                if skipClock = '0' then
+                    --Update the convolution matrix position
+                    if col = 2 then
+                        col <= 0;
+                        if raw = 2 then
+                            raw <= 0;
+                            sendPixel := '1';
+                            real_pixel_address <= real_pixel_address + 1;
+                        else
+                            raw <= raw + 1;
+                        end if;
                     else
-                        raw <= raw + 1;
+                        col <= col + 1;
                     end if;
-                else
-                    col <= col + 1;
-                end if;
-
-                -- Check if the new address is valid and set it
-                if ((real_pixel_address mod (2**LOG2_N_COLS)) + (col - 1) >= 0 and  ((real_pixel_address mod (2**LOG2_N_COLS)) + (col - 1) <= (2**LOG2_N_COLS - 1))) then
-                    if((real_pixel_address / (2**LOG2_N_ROWS)) + (raw - 1) >= 0 and (real_pixel_address / (2**LOG2_N_ROWS) + (raw - 1) <= (2**LOG2_N_ROWS - 1))) then
-                        is_pixel_valid <= '1';
-                        conv_addr <= std_logic_vector(to_unsigned((real_pixel_address + (col - 1) + ((raw - 1) * (2**LOG2_N_COLS))), conv_addr'length));
+    
+                    -- Check if the new address is valid and set it
+                    if ((real_pixel_address mod (2**LOG2_N_COLS)) + (col - 1) >= 0 and  ((real_pixel_address mod (2**LOG2_N_COLS)) + (col - 1) <= (2**LOG2_N_COLS - 1))) then
+                        if((real_pixel_address / (2**LOG2_N_ROWS)) + (raw - 1) >= 0 and (real_pixel_address / (2**LOG2_N_ROWS) + (raw - 1) <= (2**LOG2_N_ROWS - 1))) then
+                            is_pixel_valid <= '1';
+                            conv_addr <= std_logic_vector(to_unsigned((real_pixel_address + (col - 1) + ((raw - 1) * (2**LOG2_N_COLS))), conv_addr'length));
+                        else
+                            is_pixel_valid <= '0';
+                        end if;
                     else
                         is_pixel_valid <= '0';
                     end if;
+    
+                    -- Check if the image is done
+                    if (real_pixel_address = (((2**LOG2_N_COLS) * (2**LOG2_N_COLS))-1)) and (raw = 2) and (col = 2) then
+                        sendImage := '1';
+                    end if;
+                    skipClock := '1';
                 else
+                    if sendImage = '1' then
+                        is_image_done <= '1';
+                        sendImage := '0';
+                     end if;
+                     if sendPixel = '1' then
+                        is_pixel_done <= '1';
+                        sendPixel := '0';
+                     end if;
+                    skipClock := '0'; 
                     is_pixel_valid <= '0';
-                end if;
-
-                -- Check if the image is done
-                if (real_pixel_address = (((2**LOG2_N_COLS) * (2**LOG2_N_COLS))-1)) and (raw = 2) and (col = 2) then
-                    is_image_done <= '1';
                 end if;
             else
                 conv_addr <= std_logic_vector(to_unsigned(0, conv_addr'length));
