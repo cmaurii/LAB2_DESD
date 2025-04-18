@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/gbonanno/Documents/DIdattica/DESD2025/LAB2/template/DESD-LAB2/DESD-LAB2.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/gbonanno/Documents/DIdattica/DESD2025/LAB2/template/img_conv.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'img_conv'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/gbonanno/Documents/DIdattica/DESD2025/LAB2/template/DESD-LAB2/DESD-LAB2.srcs/sim_1/imports/LAB_2/img_conv_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'img_conv_tb'

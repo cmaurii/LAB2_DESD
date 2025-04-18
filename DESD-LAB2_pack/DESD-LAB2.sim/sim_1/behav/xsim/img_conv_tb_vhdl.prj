@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../img_conv.vhd" \
+"../../../../DESD-LAB2.srcs/sim_1/imports/LAB_2/img_conv_tb.vhd" \
+
+# Do not sort compile order
+nosort
