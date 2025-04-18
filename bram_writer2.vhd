@@ -1,7 +1,9 @@
 
+--new edition
 library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
+
 
 entity bram_writer is
     generic(
@@ -33,7 +35,7 @@ architecture rtl of bram_writer is
 
     component bram_controller is
         generic (
-            ADDR_WIDTH: POSITIVE :=16
+            ADDR_WIDTH: POSITIVE :=4
         );
         port (
             clk   : in std_logic;
@@ -46,9 +48,10 @@ architecture rtl of bram_writer is
     end component;
     
     constant addr_one: unsigned(ADDR_WIDTH-1 downto 0):=(others=>'1');
+    
     --signal controller
     signal addr: unsigned(ADDR_WIDTH-1 downto 0):=(others=>'0');
-    signal din : std_logic_vector(7 downto 0);
+    signal din : std_logic_vector(7 downto 0):=(others=>'0');
     signal we: std_logic:='0';
     signal dout: std_logic_vector(7 downto 0);
 
@@ -116,30 +119,26 @@ begin
 			when READ =>
                 nextState<=READ;
                 if done_conv='1' then
-				    nextState <= IDLE;
+				    nextState <= RESET;
                 end if;
 		end case;
 
 	end process;
 
 	
-	outputLogic : process (state)
+	outputLogic : process (state, conv_addr)
 	begin
 
 		case (state) is
 
 			when RESET =>
-				--tlast_reg<='0';
                 tready_reg<='0';
-                --addr<=(others=>'0');
                 we<='0';
                 start_conv_reg<='0';
-                --conv_data<=(others=>'0');
+                addr<=(others=>'0');
 
 			when IDLE =>
 				tready_reg<='1';
-                --tlast_reg<=s_axis_tlast;
-                --din<=s_axis_tdata;
 
 			when WRITE =>
                 tready_reg<='0';
@@ -147,7 +146,7 @@ begin
 
 			when ADDRUP=>
 				we<='0';
-                --addr<=addr+1;
+				addr<=addr+1;
      
 			when START_READ =>
                 we<='0';
@@ -155,6 +154,7 @@ begin
 
 			when READ =>
 				start_conv_reg<= '0';
+                addr<=unsigned(conv_addr);
 
 		end case;
 
@@ -183,20 +183,6 @@ begin
         end if;
     end process;
 
-    readprocess: process (aresetn,clk)
-    begin 
-        if aresetn='0' then
-            addr<=(others=>'0');
-        elsif rising_edge(clk) then
-            if state=READ then
-                --conv_data<=dout(6 downto 0);
-                addr<=unsigned(conv_addr);
-            elsif state=ADDRUP then
-                addr<=addr+1;
-            end if;
-        end if;
-
-    end process;
 
     idle_process: process (aresetn,clk)
     begin 
@@ -206,7 +192,10 @@ begin
         elsif rising_edge(clk) then
             if state=IDLE then
                 tlast_reg<=s_axis_tlast;
-                din<=s_axis_tdata;  
+                din<=s_axis_tdata; 
+            elsif state=RESET then
+                tlast_reg<='0';
+                din<=(others=>'0'); 
             end if;
         end if;
     end process;
