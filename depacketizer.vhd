@@ -30,86 +30,90 @@ architecture rtl of depacketizer is
     -- Signals
     signal m_axis_tvalid_int : std_logic; -- Internal signal to read the output port
     signal s_axis_tready_int : std_logic; -- Internal signal to read the output port
-    signal data_buffer : std_logic_vector(7 downto 0); -- Temporary buffer to store previous byte
-    signal next_image : std_logic := '0'; -- When set to 1 it is the beginning of a new image 
-    -- (next_image is needed to avoid that tlast gets to 0 while we are processing the header of a new image, 
-    -- therefore last byte of the old image could have been read as first data byte of the new image. 
-    -- That would have been true assuming no reset between the two images)
-
+    signal data : std_logic := '0'; -- Sort of a pointer indicates me if we are reading the next byte
+    signal data_buffer1 : std_logic_vector(7 downto 0); -- Temporary buffer to store previous byte
+    signal data_buffer2 : std_logic_vector(7 downto 0); -- Temporary buffer to store previous byte
+    
 begin
     m_axis_tvalid <= m_axis_tvalid_int;
-    s_axis_tready <= s_axis_tready_int;
-
+    s_axis_tready <= '1' when state = RECEIVE_DATA else '0'; --Ready to receive ONLY IF in receive state
+    
     process (clk, aresetn)
     begin
         if aresetn = '0' then
-            -- During reset, refuse incoming data, clear tlast and data buffer
+            -- During reset refuse to receive/send data, clear all signals
             m_axis_tvalid_int <= '0';
             m_axis_tlast <= '0';
-            s_axis_tready_int <= '0';
-            data_buffer <= (others => '0'); 
+            data_buffer1 <= (others => '0');
+            data_buffer2 <= (others => '0'); 
             state <= IDLE; -- Reset to IDLE state
-            next_image <= '0'; -- Process as first image
-
+            data <= '0';
+    
         elsif rising_edge(clk) then
             case state is
                 when IDLE =>
                     -- In IDLE state, we are waiting for the data to arrive
-                    s_axis_tready_int <= '0'; -- Still not ready to receive data
                     m_axis_tvalid_int <= '0'; -- Still don't have valid data to send
-
+    
                     if s_axis_tvalid = '1' then
                         -- When handshake at depack slave interface => start receiving data
                         state <= RECEIVE_DATA;
-                    end if;
-
+                    end if;                  
+    
                 when RECEIVE_DATA =>
                     -- In RECEIVE_DATA state, wait for data and then process it
-                    s_axis_tready_int <= '1'; -- Ready to accept data
-
-                    -- Accept data only if valid
                     if s_axis_tvalid = '1' then
-                        if next_image = '1' then  
-                                m_axis_tlast <= '1'; 
-                        end if; 
-                        
                         -- Check for header, ignore it
                         if s_axis_tdata = std_logic_vector(to_unsigned(HEADER, 8)) then
-                            m_axis_tvalid_int <= '0'; -- Don't send any data yet                   
+                            m_axis_tvalid_int <= '0'; -- Don't send any data yet
+                            data <= '0';                   
                             state <= IDLE;
-                        -- Check for footer, set tlast and output the previous byte
+    
+                        -- Check for footer
                         elsif s_axis_tdata = std_logic_vector(to_unsigned(FOOTER, 8)) then
-                            m_axis_tlast <= '1';
                             m_axis_tvalid_int <= '0';
-                            state <= IDLE; 
+                            if data = '0' then
+                                state <= IDLE; -- Usefull only if the package is made up just of HD and FT
+                            elsif data = '1' then                       
+                                state <= SEND_DATA; -- To send last data byte
+                            end if;
+    
                         -- Otherwise, store the valid data in the buffer
-                        else                           
-                        -- When handshake at depack master interface => start sending data
-                                data_buffer <= s_axis_tdata;
-                                state <= SEND_DATA; 
-                            
+                        else                            
+                            if data = '0' then
+                                data_buffer1 <= s_axis_tdata;                                 
+                                data <= '1';                                
+                                state <= IDLE; -- Before sanding the data check if the next one is a FT
+                            elsif data = '1' then 
+                                data_buffer2 <= s_axis_tdata; 
+                                state <= SEND_DATA;
+                            end if;
                         end if;
                     end if;
-
+    
                 when SEND_DATA =>
-                    s_axis_tready_int <= '0'; -- While sending data, not ready to receive more
+                    -- In SEND_DATA state, send the buffered data byte to the next module
+                    if m_axis_tvalid_int = '0' then
 
-                        -- In SEND_DATA state, send the buffered data byte to the next module
-                        if m_axis_tvalid = '0' then
-                            m_axis_tlast <= '0'; -- Tlast set to 0 for first data byte of the new image  
-                            next_image <= '0'; -- From now on new image can be processed as the first image
-                            m_axis_tdata <= data_buffer; 
-                            m_axis_tvalid_int <= '1'; -- Ready to send data                             
-                            -- Check if this is the last data
-                            if s_axis_tdata = std_logic_vector(to_unsigned(FOOTER, 8)) then
-                                m_axis_tlast <= '1';  
-                                next_image <= '1'; -- New image could be processed 
-                                state <= IDLE;
-                            end if;  
-                        elsif m_axis_tvalid = '1' and m_axis_tready ='1' then 
-                            m_axis_tvalid = '0';
-                            state <= IDLE; -- To always check handshake
-                        end if;
+                        m_axis_tdata <= data_buffer1;
+                        data_buffer1 <= data_buffer2;
+                        data_buffer2 <= s_axis_tdata;
+                        data <= '1';
+                                         
+                        m_axis_tvalid_int <= '1'; -- Ready to send data
+    
+                    elsif m_axis_tvalid_int = '1' and m_axis_tready = '1' then
+                        m_axis_tvalid_int <= '0'; -- Data sent, ready for next state
+                        state <= IDLE;
+    
+                    end if;
+                    
+                    elsif s_axis_tdata = std_logic_vector(to_unsigned(FOOTER, 8)) then
+                        m_axis_tlast <= '1';
+                    else 
+                        m_axis_tlast <= '0';
+                    end if;                    
+                    
             end case;
         end if;
     end process;
