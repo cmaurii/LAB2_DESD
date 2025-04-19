@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.runs/synth_1'
+HD_PWD='C:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

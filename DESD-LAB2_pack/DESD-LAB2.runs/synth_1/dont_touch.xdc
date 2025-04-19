@@ -9,20 +9,17 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_1 ||
 # IP: bd/design_1/ip/design_1_system_ila_0_0/design_1_system_ila_0_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_1_system_ila_0_0 || ORIG_REF_NAME==design_1_system_ila_0_0} -quiet] -quiet
 
-# Block Designs: c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/bd_f60c.bd
+# Block Designs: c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/bd_f60c.bd
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==bd_f60c || ORIG_REF_NAME==bd_f60c} -quiet] -quiet
 
-# IP: c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_0/bd_f60c_ila_lib_0.xci
+# IP: c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_0/bd_f60c_ila_lib_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==bd_f60c_ila_lib_0 || ORIG_REF_NAME==bd_f60c_ila_lib_0} -quiet] -quiet
 
-# IP: c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_1/bd_f60c_g_inst_0.xci
+# IP: c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_1/bd_f60c_g_inst_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==bd_f60c_g_inst_0 || ORIG_REF_NAME==bd_f60c_g_inst_0} -quiet] -quiet
 
 # IP: bd/design_1/ip/design_1_led_blinker_0_0/design_1_led_blinker_0_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_1_led_blinker_0_0 || ORIG_REF_NAME==design_1_led_blinker_0_0} -quiet] -quiet
-
-# IP: bd/design_1/ip/design_1_packetizer_0_1/design_1_packetizer_0_1.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_1_packetizer_0_1 || ORIG_REF_NAME==design_1_packetizer_0_1} -quiet] -quiet
 
 # IP: bd/design_1/ip/design_1_depacketizer_0_0/design_1_depacketizer_0_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_1_depacketizer_0_0 || ORIG_REF_NAME==design_1_depacketizer_0_0} -quiet] -quiet
@@ -51,31 +48,34 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_1_cl
 # IP: bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_1_proc_sys_reset_0_0 || ORIG_REF_NAME==design_1_proc_sys_reset_0_0} -quiet] -quiet
 
-# XDC: c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_0/ila_v6_2/constraints/ila_impl.xdc
+# IP: bd/design_1/ip/design_1_packetizer_0_1/design_1_packetizer_0_1.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_1_packetizer_0_1 || ORIG_REF_NAME==design_1_packetizer_0_1} -quiet] -quiet
+
+# XDC: c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_0/ila_v6_2/constraints/ila_impl.xdc
 set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==bd_f60c_ila_lib_0 || ORIG_REF_NAME==bd_f60c_ila_lib_0} -quiet] {/U0 } ]/U0 ] -quiet] -quiet
 
-# XDC: c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_0/ila_v6_2/constraints/ila.xdc
+# XDC: c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_0/ila_v6_2/constraints/ila.xdc
 #dup# set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==bd_f60c_ila_lib_0 || ORIG_REF_NAME==bd_f60c_ila_lib_0} -quiet] {/U0 } ]/U0 ] -quiet] -quiet
 
-# XDC: c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_0/bd_f60c_ila_lib_0_ooc.xdc
+# XDC: c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_0/bd_f60c_ila_lib_0_ooc.xdc
 
-# XDC: c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/bd_f60c_ooc.xdc
+# XDC: c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/bd_f60c_ooc.xdc
 
-# XDC: c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_AXI4Stream_UART_0_0/design_1_AXI4Stream_UART_0_0_board.xdc
+# XDC: c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_AXI4Stream_UART_0_0/design_1_AXI4Stream_UART_0_0_board.xdc
 set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==design_1_AXI4Stream_UART_0_0 || ORIG_REF_NAME==design_1_AXI4Stream_UART_0_0} -quiet] {/U0 } ]/U0 ] -quiet] -quiet
 
-# XDC: c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_board.xdc
+# XDC: c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_board.xdc
 set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==design_1_clk_wiz_0_0 || ORIG_REF_NAME==design_1_clk_wiz_0_0} -quiet] {/inst } ]/inst ] -quiet] -quiet
 
-# XDC: c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.xdc
+# XDC: c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.xdc
 #dup# set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==design_1_clk_wiz_0_0 || ORIG_REF_NAME==design_1_clk_wiz_0_0} -quiet] {/inst } ]/inst ] -quiet] -quiet
 
-# XDC: c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_ooc.xdc
+# XDC: c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_ooc.xdc
 
-# XDC: c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0_board.xdc
+# XDC: c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0_board.xdc
 set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==design_1_proc_sys_reset_0_0 || ORIG_REF_NAME==design_1_proc_sys_reset_0_0} -quiet] {/U0 } ]/U0 ] -quiet] -quiet
 
-# XDC: c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0.xdc
+# XDC: c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0.xdc
 #dup# set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==design_1_proc_sys_reset_0_0 || ORIG_REF_NAME==design_1_proc_sys_reset_0_0} -quiet] {/U0 } ]/U0 ] -quiet] -quiet
 
-# XDC: c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/design_1_ooc.xdc
+# XDC: c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/design_1_ooc.xdc

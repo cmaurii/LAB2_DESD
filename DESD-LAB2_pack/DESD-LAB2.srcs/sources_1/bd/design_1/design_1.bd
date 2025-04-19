@@ -1198,20 +1198,11 @@
       }
     },
     "interface_nets": {
-      "rgb2gray_0_m_axis": {
+      "AXI4Stream_UART_0_UART": {
         "interface_ports": [
-          "rgb2gray_0/m_axis",
-          "bram_writer_0/s_axis",
-          "system_ila_0/SLOT_2_AXIS"
-        ],
-        "hdl_attributes": {
-          "DEBUG": {
-            "value": "true"
-          },
-          "MARK_DEBUG": {
-            "value": "true"
-          }
-        }
+          "usb_uart",
+          "AXI4Stream_UART_0/UART"
+        ]
       },
       "depacketizer_0_m_axis": {
         "interface_ports": [
@@ -1243,22 +1234,31 @@
           }
         }
       },
-      "packetizer_0_m_axis": {
-        "interface_ports": [
-          "packetizer_0/m_axis",
-          "AXI4Stream_UART_0/S00_AXIS_TX"
-        ]
-      },
       "AXI4Stream_UART_0_M00_AXIS_RX": {
         "interface_ports": [
           "depacketizer_0/s_axis",
           "AXI4Stream_UART_0/M00_AXIS_RX"
         ]
       },
-      "AXI4Stream_UART_0_UART": {
+      "rgb2gray_0_m_axis": {
         "interface_ports": [
-          "usb_uart",
-          "AXI4Stream_UART_0/UART"
+          "rgb2gray_0/m_axis",
+          "bram_writer_0/s_axis",
+          "system_ila_0/SLOT_2_AXIS"
+        ],
+        "hdl_attributes": {
+          "DEBUG": {
+            "value": "true"
+          },
+          "MARK_DEBUG": {
+            "value": "true"
+          }
+        }
+      },
+      "packetizer_0_m_axis": {
+        "interface_ports": [
+          "packetizer_0/m_axis",
+          "AXI4Stream_UART_0/S00_AXIS_TX"
         ]
       }
     },

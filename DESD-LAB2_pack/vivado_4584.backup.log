@@ -1,0 +1,352 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Fri Apr 18 15:26:36 2025
+# Process ID: 4584
+# Current directory: C:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17868 C:\Users\chiar\Desktop\DESD-LAB2-ENCRYPTED.xpr\LAB2_DESD\DESD-LAB2\DESD-LAB2.xpr
+# Log file: C:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/vivado.log
+# Journal file: C:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/DESD-LAB2' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.ipdefs/IPs'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1017.250 ; gain = 0.000
+update_compile_order -fileset sources_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2020.2
+  **** Build date : Nov 18 2020 at 10:01:48
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2020.2
+  ****** Build date   : Nov 03 2020-22:02:56
+    **** Build number : 2020.2.1604437376
+      ** Copyright 2017-2020 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 1017.250 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183B03DC4A
+set_property PROGRAM.FILE {C:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7a35t_0]
+set_property PROBES.FILE {C:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {C:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1435] Device xc7a35t (JTAG device index = 0) is not programmed (DONE status = 0).
+set_property PROBES.FILE {C:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {C:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-2302] Device xc7a35t (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"design_1_i/system_ila_0/U0/ila_lib"}]]
+Processing Interface depacketizer_0_m_axis_ila1_slot0
+Processing Interface img_conv_0_m_axis_ila1_slot1
+Processing Interface rgb2gray_0_m_axis_ila1_slot2
+save_wave_config {C:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg}
+close_hw_manager
+update_files -from_files {{C:/Users/chiar/Desktop/Packetizer/Packetizer.srcs/sources_1/imports/sources_1/packetizer - Copia.vhd}} -to_files C:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.srcs/sources_1/imports/template/packetizer.vhd -filesets [get_filesets *]
+INFO: [filemgmt 20-762] Replacing file 'C:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.srcs/sources_1/imports/template/packetizer.vhd' with file 'C:/Users/chiar/Desktop/Packetizer/Packetizer.srcs/sources_1/imports/sources_1/packetizer - Copia.vhd'.
+INFO: [filemgmt 20-1080] Importing file from 'C:/Users/chiar/Desktop/Packetizer/Packetizer.srcs/sources_1/imports/sources_1/packetizer - Copia.vhd' to 'C:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.srcs/sources_1/imports/template/packetizer - Copia.vhd'.
+update_module_reference design_1_packetizer_0_1
+INFO: [IP_Flow 19-5107] Inferred bus interface 'm_axis' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 's_axis' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'aresetn' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'aresetn': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-4728] Bus Interface 'clk': Added interface parameter 'ASSOCIATED_BUSIF' with value 'm_axis'.
+INFO: [IP_Flow 19-4728] Bus Interface 'clk': Added interface parameter 'ASSOCIATED_RESET' with value 'aresetn'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.ipdefs/IPs'.
+Reading block design file <C:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.srcs/sources_1/bd/design_1/design_1.bd>...
+Adding component instance block -- xilinx.com:ip:system_ila:1.1 - system_ila_0
+Adding component instance block -- xilinx.com:module_ref:led_blinker:1.0 - led_blinker_0
+Adding component instance block -- xilinx.com:module_ref:packetizer:1.0 - packetizer_0
+Adding component instance block -- xilinx.com:module_ref:depacketizer:1.0 - depacketizer_0
+Adding component instance block -- xilinx.com:module_ref:img_conv:1.0 - img_conv_0
+Adding component instance block -- xilinx.com:module_ref:rgb2gray:1.0 - rgb2gray_0
+Adding component instance block -- xilinx.com:module_ref:bram_writer:1.0 - bram_writer_0
+Adding component instance block -- xilinx.com:module_ref:led_blinker:1.0 - led_blinker_1
+Adding component instance block -- xilinx.com:module_ref:led_blinker:1.0 - led_blinker_2
+Adding component instance block -- DigiLAB:ip:AXI4Stream_UART:1.1 - AXI4Stream_UART_0
+Adding component instance block -- xilinx.com:ip:clk_wiz:6.0 - clk_wiz_0
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - proc_sys_reset_0
+Successfully read diagram <design_1> from block design file <C:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.srcs/sources_1/bd/design_1/design_1.bd>
+Upgrading 'C:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.srcs/sources_1/bd/design_1/design_1.bd'
+INFO: [IP_Flow 19-3420] Updated design_1_packetizer_0_1 to use current project options
+Wrote  : <C:\Users\chiar\Desktop\DESD-LAB2-ENCRYPTED.xpr\LAB2_DESD\DESD-LAB2\DESD-LAB2.srcs\sources_1\bd\design_1\design_1.bd> 
+Wrote  : <C:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
+upgrade_ip: Time (s): cpu = 00:00:08 ; elapsed = 00:00:13 . Memory (MB): peak = 2662.562 ; gain = 113.336
+update_module_reference: Time (s): cpu = 00:00:08 ; elapsed = 00:00:13 . Memory (MB): peak = 2662.562 ; gain = 113.336
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+WARNING: [BD 41-1781] Updates have been made to one or more nets/interface connections marked for debug.
+Debug nets, which are already connected to any ILA IP core in the block-design, will be automatically available for debug in Hardware Manager.
+For unconnected Debug nets, please open synthesized design and use 'Set Up Debug' wizard to insert, modify or delete Debug Cores. 
+INFO: [xilinx.com:ip:clk_wiz:6.0-1] /clk_wiz_0 clk_wiz propagate
+Wrote  : <C:\Users\chiar\Desktop\DESD-LAB2-ENCRYPTED.xpr\LAB2_DESD\DESD-LAB2\DESD-LAB2.srcs\sources_1\bd\design_1\design_1.bd> 
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/system_ila_0/SLOT_1_AXIS_tdata'(32) to pin: '/img_conv_0/m_axis_tdata'(8) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/system_ila_0/SLOT_2_AXIS_tdata'(32) to pin: '/rgb2gray_0/m_axis_tdata'(8) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/system_ila_0/SLOT_0_AXIS_tdata'(32) to pin: '/depacketizer_0/m_axis_tdata'(8) - Only lower order bits will be connected.
+VHDL Output written to : c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/synth/design_1.vhd
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/system_ila_0/SLOT_1_AXIS_tdata'(32) to pin: '/img_conv_0/m_axis_tdata'(8) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/system_ila_0/SLOT_2_AXIS_tdata'(32) to pin: '/rgb2gray_0/m_axis_tdata'(8) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/system_ila_0/SLOT_0_AXIS_tdata'(32) to pin: '/depacketizer_0/m_axis_tdata'(8) - Only lower order bits will be connected.
+VHDL Output written to : c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/sim/design_1.vhd
+VHDL Output written to : c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/hdl/design_1_wrapper.vhd
+Exporting to file c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/hw_handoff/design_1_system_ila_0_0.hwh
+Generated Block Design Tcl file c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/hw_handoff/design_1_system_ila_0_0_bd.tcl
+Generated Hardware Definition File c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/synth/design_1_system_ila_0_0.hwdef
+INFO: [BD 41-1029] Generation completed for the IP Integrator block packetizer_0 .
+Exporting to file c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/hw_handoff/design_1.hwh
+Generated Block Design Tcl file c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl
+Generated Hardware Definition File c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/synth/design_1.hwdef
+[Fri Apr 18 15:31:37 2025] Launched synth_1...
+Run output will be captured here: C:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.runs/synth_1/runme.log
+[Fri Apr 18 15:31:37 2025] Launched impl_1...
+Run output will be captured here: C:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:08 ; elapsed = 00:00:25 . Memory (MB): peak = 2913.145 ; gain = 238.070
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2020.2
+  **** Build date : Nov 18 2020 at 10:01:48
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2020.2
+  ****** Build date   : Nov 03 2020-22:02:56
+    **** Build number : 2020.2.1604437376
+      ** Copyright 2017-2020 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:10 . Memory (MB): peak = 2927.129 ; gain = 13.852
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183B03DC4A
+set_property PROGRAM.FILE {C:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7a35t_0]
+set_property PROBES.FILE {C:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {C:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1435] Device xc7a35t (JTAG device index = 0) is not programmed (DONE status = 0).
+set_property PROBES.FILE {C:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {C:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-2302] Device xc7a35t (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"design_1_i/system_ila_0/U0/ila_lib"}]]
+Processed interface depacketizer_0_m_axis_ila1_slot0
+Processed interface img_conv_0_m_axis_ila1_slot1
+Processed interface rgb2gray_0_m_axis_ila1_slot2
+save_wave_config {C:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg}
+close_hw_manager
+update_module_reference design_1_packetizer_0_1
+INFO: [IP_Flow 19-5107] Inferred bus interface 'm_axis' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 's_axis' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'aresetn' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'aresetn': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-4728] Bus Interface 'clk': Added interface parameter 'ASSOCIATED_BUSIF' with value 'm_axis'.
+INFO: [IP_Flow 19-4728] Bus Interface 'clk': Added interface parameter 'ASSOCIATED_RESET' with value 'aresetn'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.ipdefs/IPs'.
+Upgrading 'C:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.srcs/sources_1/bd/design_1/design_1.bd'
+INFO: [IP_Flow 19-1972] Upgraded design_1_packetizer_0_1 from packetizer_v1_0 1.0 to packetizer_v1_0 1.0
+Wrote  : <C:\Users\chiar\Desktop\DESD-LAB2-ENCRYPTED.xpr\LAB2_DESD\DESD-LAB2\DESD-LAB2.srcs\sources_1\bd\design_1\design_1.bd> 
+Wrote  : <C:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+WARNING: [BD 41-1781] Updates have been made to one or more nets/interface connections marked for debug.
+Debug nets, which are already connected to any ILA IP core in the block-design, will be automatically available for debug in Hardware Manager.
+For unconnected Debug nets, please open synthesized design and use 'Set Up Debug' wizard to insert, modify or delete Debug Cores. 
+INFO: [xilinx.com:ip:clk_wiz:6.0-1] /clk_wiz_0 clk_wiz propagate
+Wrote  : <C:\Users\chiar\Desktop\DESD-LAB2-ENCRYPTED.xpr\LAB2_DESD\DESD-LAB2\DESD-LAB2.srcs\sources_1\bd\design_1\design_1.bd> 
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/system_ila_0/SLOT_1_AXIS_tdata'(32) to pin: '/img_conv_0/m_axis_tdata'(8) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/system_ila_0/SLOT_2_AXIS_tdata'(32) to pin: '/rgb2gray_0/m_axis_tdata'(8) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/system_ila_0/SLOT_0_AXIS_tdata'(32) to pin: '/depacketizer_0/m_axis_tdata'(8) - Only lower order bits will be connected.
+VHDL Output written to : c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/synth/design_1.vhd
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/system_ila_0/SLOT_1_AXIS_tdata'(32) to pin: '/img_conv_0/m_axis_tdata'(8) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/system_ila_0/SLOT_2_AXIS_tdata'(32) to pin: '/rgb2gray_0/m_axis_tdata'(8) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/system_ila_0/SLOT_0_AXIS_tdata'(32) to pin: '/depacketizer_0/m_axis_tdata'(8) - Only lower order bits will be connected.
+VHDL Output written to : c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/sim/design_1.vhd
+VHDL Output written to : c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/hdl/design_1_wrapper.vhd
+Exporting to file c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/hw_handoff/design_1_system_ila_0_0.hwh
+Generated Block Design Tcl file c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/hw_handoff/design_1_system_ila_0_0_bd.tcl
+Generated Hardware Definition File c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/synth/design_1_system_ila_0_0.hwdef
+INFO: [BD 41-1029] Generation completed for the IP Integrator block packetizer_0 .
+Exporting to file c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/hw_handoff/design_1.hwh
+Generated Block Design Tcl file c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl
+Generated Hardware Definition File c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/synth/design_1.hwdef
+[Fri Apr 18 15:39:17 2025] Launched synth_1...
+Run output will be captured here: C:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.runs/synth_1/runme.log
+[Fri Apr 18 15:39:17 2025] Launched impl_1...
+Run output will be captured here: C:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:07 ; elapsed = 00:00:13 . Memory (MB): peak = 2947.559 ; gain = 0.539
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2020.2
+  **** Build date : Nov 18 2020 at 10:01:48
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2020.2
+  ****** Build date   : Nov 03 2020-22:02:56
+    **** Build number : 2020.2.1604437376
+      ** Copyright 2017-2020 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 2947.559 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183B03DC4A
+set_property PROGRAM.FILE {C:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7a35t_0]
+set_property PROBES.FILE {C:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {C:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1435] Device xc7a35t (JTAG device index = 0) is not programmed (DONE status = 0).
+set_property PROBES.FILE {C:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {C:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-2302] Device xc7a35t (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"design_1_i/system_ila_0/U0/ila_lib"}]]
+Processed interface depacketizer_0_m_axis_ila1_slot0
+Processed interface img_conv_0_m_axis_ila1_slot1
+Processed interface rgb2gray_0_m_axis_ila1_slot2
+save_wave_config {C:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg}
+close_hw_manager
+update_files -from_files {{C:/Users/chiar/Desktop/Packetizer/Packetizer.srcs/sources_1/imports/sources_1/packetizer - Copia.vhd}} -to_files {{C:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.srcs/sources_1/imports/template/packetizer - Copia.vhd}} -filesets [get_filesets *]
+INFO: [filemgmt 20-762] Replacing file 'C:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.srcs/sources_1/imports/template/packetizer - Copia.vhd' with file 'C:/Users/chiar/Desktop/Packetizer/Packetizer.srcs/sources_1/imports/sources_1/packetizer - Copia.vhd'.
+INFO: [filemgmt 20-1080] Importing file from 'C:/Users/chiar/Desktop/Packetizer/Packetizer.srcs/sources_1/imports/sources_1/packetizer - Copia.vhd' to 'C:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.srcs/sources_1/imports/template/packetizer - Copia.vhd'.
+update_files -from_files {{C:/Users/chiar/Desktop/Packetizer/Packetizer.srcs/sources_1/imports/sources_1/packetizer - Copia.vhd}} -to_files {{C:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.srcs/sources_1/imports/template/packetizer - Copia.vhd}} -filesets [get_filesets *]
+INFO: [filemgmt 20-762] Replacing file 'C:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.srcs/sources_1/imports/template/packetizer - Copia.vhd' with file 'C:/Users/chiar/Desktop/Packetizer/Packetizer.srcs/sources_1/imports/sources_1/packetizer - Copia.vhd'.
+INFO: [filemgmt 20-1080] Importing file from 'C:/Users/chiar/Desktop/Packetizer/Packetizer.srcs/sources_1/imports/sources_1/packetizer - Copia.vhd' to 'C:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.srcs/sources_1/imports/template/packetizer - Copia.vhd'.
+update_module_reference design_1_packetizer_0_1
+INFO: [IP_Flow 19-5107] Inferred bus interface 'm_axis' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 's_axis' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'aresetn' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'aresetn': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-4728] Bus Interface 'clk': Added interface parameter 'ASSOCIATED_BUSIF' with value 'm_axis'.
+INFO: [IP_Flow 19-4728] Bus Interface 'clk': Added interface parameter 'ASSOCIATED_RESET' with value 'aresetn'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.ipdefs/IPs'.
+Upgrading 'C:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.srcs/sources_1/bd/design_1/design_1.bd'
+INFO: [IP_Flow 19-1972] Upgraded design_1_packetizer_0_1 from packetizer_v1_0 1.0 to packetizer_v1_0 1.0
+Wrote  : <C:\Users\chiar\Desktop\DESD-LAB2-ENCRYPTED.xpr\LAB2_DESD\DESD-LAB2\DESD-LAB2.srcs\sources_1\bd\design_1\design_1.bd> 
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+WARNING: [BD 41-1781] Updates have been made to one or more nets/interface connections marked for debug.
+Debug nets, which are already connected to any ILA IP core in the block-design, will be automatically available for debug in Hardware Manager.
+For unconnected Debug nets, please open synthesized design and use 'Set Up Debug' wizard to insert, modify or delete Debug Cores. 
+INFO: [xilinx.com:ip:clk_wiz:6.0-1] /clk_wiz_0 clk_wiz propagate
+Wrote  : <C:\Users\chiar\Desktop\DESD-LAB2-ENCRYPTED.xpr\LAB2_DESD\DESD-LAB2\DESD-LAB2.srcs\sources_1\bd\design_1\design_1.bd> 
+Wrote  : <C:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/system_ila_0/SLOT_1_AXIS_tdata'(32) to pin: '/img_conv_0/m_axis_tdata'(8) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/system_ila_0/SLOT_2_AXIS_tdata'(32) to pin: '/rgb2gray_0/m_axis_tdata'(8) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/system_ila_0/SLOT_0_AXIS_tdata'(32) to pin: '/depacketizer_0/m_axis_tdata'(8) - Only lower order bits will be connected.
+VHDL Output written to : c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/synth/design_1.vhd
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/system_ila_0/SLOT_1_AXIS_tdata'(32) to pin: '/img_conv_0/m_axis_tdata'(8) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/system_ila_0/SLOT_2_AXIS_tdata'(32) to pin: '/rgb2gray_0/m_axis_tdata'(8) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/system_ila_0/SLOT_0_AXIS_tdata'(32) to pin: '/depacketizer_0/m_axis_tdata'(8) - Only lower order bits will be connected.
+VHDL Output written to : c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/sim/design_1.vhd
+VHDL Output written to : c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/hdl/design_1_wrapper.vhd
+Exporting to file c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/hw_handoff/design_1_system_ila_0_0.hwh
+Generated Block Design Tcl file c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/hw_handoff/design_1_system_ila_0_0_bd.tcl
+Generated Hardware Definition File c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/synth/design_1_system_ila_0_0.hwdef
+INFO: [BD 41-1029] Generation completed for the IP Integrator block packetizer_0 .
+Exporting to file c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/hw_handoff/design_1.hwh
+Generated Block Design Tcl file c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl
+Generated Hardware Definition File c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/synth/design_1.hwdef
+[Fri Apr 18 16:09:48 2025] Launched synth_1...
+Run output will be captured here: C:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.runs/synth_1/runme.log
+[Fri Apr 18 16:09:49 2025] Launched impl_1...
+Run output will be captured here: C:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:07 ; elapsed = 00:00:12 . Memory (MB): peak = 2972.918 ; gain = 16.406
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2020.2
+  **** Build date : Nov 18 2020 at 10:01:48
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2020.2
+  ****** Build date   : Nov 03 2020-22:02:56
+    **** Build number : 2020.2.1604437376
+      ** Copyright 2017-2020 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 2972.918 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183B03DC4A
+set_property PROGRAM.FILE {C:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7a35t_0]
+set_property PROBES.FILE {C:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {C:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1435] Device xc7a35t (JTAG device index = 0) is not programmed (DONE status = 0).
+set_property PROBES.FILE {C:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {C:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-2302] Device xc7a35t (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"design_1_i/system_ila_0/U0/ila_lib"}]]
+Processed interface depacketizer_0_m_axis_ila1_slot0
+Processed interface img_conv_0_m_axis_ila1_slot1
+Processed interface rgb2gray_0_m_axis_ila1_slot2
+save_wave_config {C:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg}
+close_hw_manager

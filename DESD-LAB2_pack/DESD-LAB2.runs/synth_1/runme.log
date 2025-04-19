@@ -11,10 +11,8 @@
 
 source design_1_wrapper.tcl -notrace
 INFO: [IP_Flow 19-234] Refreshing IP repositories
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.ipdefs/IPs'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.ipdefs/IPs'.
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
-WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
-Current IP cache path is c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.cache/ip 
 INFO: [IP_Flow 19-5107] Inferred bus interface 'm_axis' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
 INFO: [IP_Flow 19-5107] Inferred bus interface 's_axis' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
 INFO: [IP_Flow 19-5107] Inferred bus interface 'aresetn' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
@@ -23,7 +21,7 @@ INFO: [IP_Flow 19-4728] Bus Interface 'aresetn': Added interface parameter 'POLA
 INFO: [IP_Flow 19-4728] Bus Interface 'clk': Added interface parameter 'ASSOCIATED_BUSIF' with value 'm_axis'.
 INFO: [IP_Flow 19-4728] Bus Interface 'clk': Added interface parameter 'ASSOCIATED_RESET' with value 'aresetn'.
 INFO: [IP_Flow 19-234] Refreshing IP repositories
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.ipdefs/IPs'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.ipdefs/IPs'.
 INFO: [IP_Flow 19-5107] Inferred bus interface 'm_axis' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
 INFO: [IP_Flow 19-5107] Inferred bus interface 'aresetn' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
 INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
@@ -31,7 +29,7 @@ INFO: [IP_Flow 19-4728] Bus Interface 'aresetn': Added interface parameter 'POLA
 INFO: [IP_Flow 19-4728] Bus Interface 'clk': Added interface parameter 'ASSOCIATED_BUSIF' with value 'm_axis'.
 INFO: [IP_Flow 19-4728] Bus Interface 'clk': Added interface parameter 'ASSOCIATED_RESET' with value 'aresetn'.
 INFO: [IP_Flow 19-234] Refreshing IP repositories
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.ipdefs/IPs'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.ipdefs/IPs'.
 INFO: [IP_Flow 19-5107] Inferred bus interface 'm_axis' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
 INFO: [IP_Flow 19-5107] Inferred bus interface 's_axis' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
 INFO: [IP_Flow 19-5107] Inferred bus interface 'resetn' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
@@ -40,7 +38,7 @@ INFO: [IP_Flow 19-4728] Bus Interface 'resetn': Added interface parameter 'POLAR
 INFO: [IP_Flow 19-4728] Bus Interface 'clk': Added interface parameter 'ASSOCIATED_BUSIF' with value 'm_axis'.
 INFO: [IP_Flow 19-4728] Bus Interface 'clk': Added interface parameter 'ASSOCIATED_RESET' with value 'resetn'.
 INFO: [IP_Flow 19-234] Refreshing IP repositories
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.ipdefs/IPs'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.ipdefs/IPs'.
 INFO: [IP_Flow 19-5107] Inferred bus interface 's_axis' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
 INFO: [IP_Flow 19-5107] Inferred bus interface 'aresetn' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
 INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
@@ -48,14 +46,14 @@ INFO: [IP_Flow 19-4728] Bus Interface 'aresetn': Added interface parameter 'POLA
 INFO: [IP_Flow 19-4728] Bus Interface 'clk': Added interface parameter 'ASSOCIATED_BUSIF' with value 's_axis'.
 INFO: [IP_Flow 19-4728] Bus Interface 'clk': Added interface parameter 'ASSOCIATED_RESET' with value 'aresetn'.
 INFO: [IP_Flow 19-234] Refreshing IP repositories
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.ipdefs/IPs'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.ipdefs/IPs'.
 INFO: [IP_Flow 19-5107] Inferred bus interface 'aresetn' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
 INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
 INFO: [IP_Flow 19-4728] Bus Interface 'aresetn': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
 INFO: [IP_Flow 19-4728] Bus Interface 'clk': Added interface parameter 'ASSOCIATED_RESET' with value 'aresetn'.
 WARNING: [IP_Flow 19-5661] Bus Interface 'clk' does not have any bus interfaces associated with it.
 INFO: [IP_Flow 19-234] Refreshing IP repositories
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.ipdefs/IPs'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.ipdefs/IPs'.
 INFO: [IP_Flow 19-5107] Inferred bus interface 'm_axis' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
 INFO: [IP_Flow 19-5107] Inferred bus interface 's_axis' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
 INFO: [IP_Flow 19-5107] Inferred bus interface 'aresetn' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
@@ -64,8 +62,8 @@ INFO: [IP_Flow 19-4728] Bus Interface 'aresetn': Added interface parameter 'POLA
 INFO: [IP_Flow 19-4728] Bus Interface 'clk': Added interface parameter 'ASSOCIATED_BUSIF' with value 'm_axis'.
 INFO: [IP_Flow 19-4728] Bus Interface 'clk': Added interface parameter 'ASSOCIATED_RESET' with value 'aresetn'.
 INFO: [IP_Flow 19-234] Refreshing IP repositories
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.ipdefs/IPs'.
-add_files: Time (s): cpu = 00:00:03 ; elapsed = 00:00:09 . Memory (MB): peak = 1019.035 ; gain = 0.000
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.ipdefs/IPs'.
+add_files: Time (s): cpu = 00:00:03 ; elapsed = 00:00:11 . Memory (MB): peak = 1004.625 ; gain = 0.000
 Command: synth_design -top design_1_wrapper -part xc7a35tcpg236-1
 Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
@@ -73,31 +71,31 @@ INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t
 INFO: [Device 21-403] Loading part xc7a35tcpg236-1
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 3112
+INFO: [Synth 8-7075] Helper process launched with PID 23644
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 1019.035 ; gain = 0.000
+Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:13 . Memory (MB): peak = 1004.625 ; gain = 0.000
 ---------------------------------------------------------------------------------
-WARNING: [Synth 8-1565] actual for formal port rsta is neither a static name nor a globally static expression [C:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.srcs/sources_1/imports/LAB_2/bram_controller.vhd:78]
-INFO: [Synth 8-638] synthesizing module 'design_1_wrapper' [C:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.srcs/sources_1/imports/design_1_wrapper.vhd:26]
-INFO: [Synth 8-3491] module 'design_1' declared at 'c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/synth/design_1.vhd:14' bound to instance 'design_1_i' of component 'design_1' [C:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.srcs/sources_1/imports/design_1_wrapper.vhd:39]
-INFO: [Synth 8-638] synthesizing module 'design_1' [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/synth/design_1.vhd:30]
-INFO: [Synth 8-3491] module 'design_1_AXI4Stream_UART_0_0' declared at 'c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_AXI4Stream_UART_0_0/synth/design_1_AXI4Stream_UART_0_0.vhd:56' bound to instance 'AXI4Stream_UART_0' of component 'design_1_AXI4Stream_UART_0_0' [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/synth/design_1.vhd:290]
-INFO: [Synth 8-638] synthesizing module 'design_1_AXI4Stream_UART_0_0' [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_AXI4Stream_UART_0_0/synth/design_1_AXI4Stream_UART_0_0.vhd:75]
+WARNING: [Synth 8-1565] actual for formal port rsta is neither a static name nor a globally static expression [C:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.srcs/sources_1/imports/LAB_2/bram_controller.vhd:78]
+INFO: [Synth 8-638] synthesizing module 'design_1_wrapper' [C:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.srcs/sources_1/imports/design_1_wrapper.vhd:26]
+INFO: [Synth 8-3491] module 'design_1' declared at 'c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/synth/design_1.vhd:14' bound to instance 'design_1_i' of component 'design_1' [C:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.srcs/sources_1/imports/design_1_wrapper.vhd:39]
+INFO: [Synth 8-638] synthesizing module 'design_1' [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/synth/design_1.vhd:30]
+INFO: [Synth 8-3491] module 'design_1_AXI4Stream_UART_0_0' declared at 'c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_AXI4Stream_UART_0_0/synth/design_1_AXI4Stream_UART_0_0.vhd:56' bound to instance 'AXI4Stream_UART_0' of component 'design_1_AXI4Stream_UART_0_0' [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/synth/design_1.vhd:290]
+INFO: [Synth 8-638] synthesizing module 'design_1_AXI4Stream_UART_0_0' [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_AXI4Stream_UART_0_0/synth/design_1_AXI4Stream_UART_0_0.vhd:75]
 	Parameter UART_BAUD_RATE bound to: 115200 - type: integer 
 	Parameter UART_CLOCK_FREQUENCY bound to: 100000000 - type: integer 
 	Parameter C_M00_AXIS_RX_TDATA_WIDTH bound to: 8 - type: integer 
 	Parameter C_S00_AXIS_TX_TDATA_WIDTH bound to: 8 - type: integer 
-INFO: [Synth 8-3491] module 'AXI4Stream_UART_v1_0' declared at 'c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8f9c/hdl/AXI4Stream_UART_v1_0.vhd:42' bound to instance 'U0' of component 'AXI4Stream_UART_v1_0' [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_AXI4Stream_UART_0_0/synth/design_1_AXI4Stream_UART_0_0.vhd:132]
-INFO: [Synth 8-638] synthesizing module 'AXI4Stream_UART_v1_0' [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8f9c/hdl/AXI4Stream_UART_v1_0.vhd:82]
+INFO: [Synth 8-3491] module 'AXI4Stream_UART_v1_0' declared at 'c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8f9c/hdl/AXI4Stream_UART_v1_0.vhd:42' bound to instance 'U0' of component 'AXI4Stream_UART_v1_0' [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_AXI4Stream_UART_0_0/synth/design_1_AXI4Stream_UART_0_0.vhd:132]
+INFO: [Synth 8-638] synthesizing module 'AXI4Stream_UART_v1_0' [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8f9c/hdl/AXI4Stream_UART_v1_0.vhd:82]
 	Parameter UART_BAUD_RATE bound to: 115200 - type: integer 
 	Parameter UART_CLOCK_FREQUENCY bound to: 100000000 - type: integer 
 	Parameter C_M00_AXIS_RX_TDATA_WIDTH bound to: 8 - type: integer 
 	Parameter C_S00_AXIS_TX_TDATA_WIDTH bound to: 8 - type: integer 
 	Parameter C_S_AXIS_TDATA_WIDTH bound to: 8 - type: integer 
-INFO: [Synth 8-3491] module 'AXI4Stream_UART_v1_0_S00_AXIS_TX' declared at 'c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8f9c/hdl/AXI4Stream_UART_v1_0_S00_AXIS_TX.vhd:39' bound to instance 'AXI4Stream_UART_v1_0_S00_AXIS_TX_inst' of component 'AXI4Stream_UART_v1_0_S00_AXIS_TX' [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8f9c/hdl/AXI4Stream_UART_v1_0.vhd:217]
-INFO: [Synth 8-638] synthesizing module 'AXI4Stream_UART_v1_0_S00_AXIS_TX' [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8f9c/hdl/AXI4Stream_UART_v1_0_S00_AXIS_TX.vhd:70]
+INFO: [Synth 8-3491] module 'AXI4Stream_UART_v1_0_S00_AXIS_TX' declared at 'c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8f9c/hdl/AXI4Stream_UART_v1_0_S00_AXIS_TX.vhd:39' bound to instance 'AXI4Stream_UART_v1_0_S00_AXIS_TX_inst' of component 'AXI4Stream_UART_v1_0_S00_AXIS_TX' [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8f9c/hdl/AXI4Stream_UART_v1_0.vhd:217]
+INFO: [Synth 8-638] synthesizing module 'AXI4Stream_UART_v1_0_S00_AXIS_TX' [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8f9c/hdl/AXI4Stream_UART_v1_0_S00_AXIS_TX.vhd:70]
 	Parameter C_S_AXIS_TDATA_WIDTH bound to: 8 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'AXI4Stream_UART_v1_0_S00_AXIS_TX' (1#1) [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8f9c/hdl/AXI4Stream_UART_v1_0_S00_AXIS_TX.vhd:70]
+INFO: [Synth 8-256] done synthesizing module 'AXI4Stream_UART_v1_0_S00_AXIS_TX' (1#1) [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8f9c/hdl/AXI4Stream_UART_v1_0_S00_AXIS_TX.vhd:70]
 	Parameter FIFO_MEMORY_TYPE bound to: block - type: string 
 	Parameter FIFO_WRITE_DEPTH bound to: 2048 - type: integer 
 	Parameter CASCADE_HEIGHT bound to: 0 - type: integer 
@@ -117,7 +115,7 @@ INFO: [Synth 8-256] done synthesizing module 'AXI4Stream_UART_v1_0_S00_AXIS_TX' 
 	Parameter ECC_MODE bound to: no_ecc - type: string 
 	Parameter SIM_ASSERT_CHK bound to: 0 - type: integer 
 	Parameter WAKEUP_TIME bound to: 0 - type: integer 
-INFO: [Synth 8-3491] module 'xpm_fifo_async' declared at 'C:/Xilinx/Vivado/2020.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:2142' bound to instance 'FIFO_DATA_TX' of component 'xpm_fifo_async' [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8f9c/hdl/AXI4Stream_UART_v1_0.vhd:249]
+INFO: [Synth 8-3491] module 'xpm_fifo_async' declared at 'C:/Xilinx/Vivado/2020.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:2142' bound to instance 'FIFO_DATA_TX' of component 'xpm_fifo_async' [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8f9c/hdl/AXI4Stream_UART_v1_0.vhd:249]
 INFO: [Synth 8-6157] synthesizing module 'xpm_fifo_async' [C:/Xilinx/Vivado/2020.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:2142]
 	Parameter FIFO_MEMORY_TYPE bound to: block - type: string 
 	Parameter ECC_MODE bound to: no_ecc - type: string 
@@ -350,18 +348,18 @@ INFO: [Synth 8-6155] done synthesizing module 'xpm_fifo_base' (9#1) [C:/Xilinx/V
 INFO: [Synth 8-6155] done synthesizing module 'xpm_fifo_async' (10#1) [C:/Xilinx/Vivado/2020.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:2142]
 	Parameter UART_BAUD_RATE bound to: 115200 - type: integer 
 	Parameter UART_CLOCK_FREQUENCY bound to: 100000000 - type: integer 
-INFO: [Synth 8-3491] module 'UART_Manager' declared at 'c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8f9c/hdl/UART_Manager.vhd:42' bound to instance 'UART_Manager_inst' of component 'UART_Manager' [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8f9c/hdl/AXI4Stream_UART_v1_0.vhd:290]
-INFO: [Synth 8-638] synthesizing module 'UART_Manager' [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8f9c/hdl/UART_Manager.vhd:78]
+INFO: [Synth 8-3491] module 'UART_Manager' declared at 'c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8f9c/hdl/UART_Manager.vhd:42' bound to instance 'UART_Manager_inst' of component 'UART_Manager' [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8f9c/hdl/AXI4Stream_UART_v1_0.vhd:290]
+INFO: [Synth 8-638] synthesizing module 'UART_Manager' [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8f9c/hdl/UART_Manager.vhd:78]
 	Parameter UART_BAUD_RATE bound to: 115200 - type: integer 
 	Parameter UART_CLOCK_FREQUENCY bound to: 100000000 - type: integer 
 	Parameter BAUD_RATE bound to: 115200 - type: integer 
 	Parameter CLOCK_FREQUENCY bound to: 100000000 - type: integer 
-INFO: [Synth 8-3491] module 'UART_Engine' declared at 'c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8f9c/hdl/UART_Engine.vhd:62' bound to instance 'Inst_uart' of component 'UART_engine' [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8f9c/hdl/UART_Manager.vhd:125]
-INFO: [Synth 8-638] synthesizing module 'UART_Engine' [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8f9c/hdl/UART_Engine.vhd:81]
+INFO: [Synth 8-3491] module 'UART_Engine' declared at 'c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8f9c/hdl/UART_Engine.vhd:62' bound to instance 'Inst_uart' of component 'UART_engine' [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8f9c/hdl/UART_Manager.vhd:125]
+INFO: [Synth 8-638] synthesizing module 'UART_Engine' [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8f9c/hdl/UART_Engine.vhd:81]
 	Parameter BAUD_RATE bound to: 115200 - type: integer 
 	Parameter CLOCK_FREQUENCY bound to: 100000000 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'UART_Engine' (11#1) [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8f9c/hdl/UART_Engine.vhd:81]
-INFO: [Synth 8-256] done synthesizing module 'UART_Manager' (12#1) [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8f9c/hdl/UART_Manager.vhd:78]
+INFO: [Synth 8-256] done synthesizing module 'UART_Engine' (11#1) [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8f9c/hdl/UART_Engine.vhd:81]
+INFO: [Synth 8-256] done synthesizing module 'UART_Manager' (12#1) [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8f9c/hdl/UART_Manager.vhd:78]
 	Parameter FIFO_MEMORY_TYPE bound to: block - type: string 
 	Parameter FIFO_WRITE_DEPTH bound to: 2048 - type: integer 
 	Parameter CASCADE_HEIGHT bound to: 0 - type: integer 
@@ -381,19 +379,19 @@ INFO: [Synth 8-256] done synthesizing module 'UART_Manager' (12#1) [c:/Users/chi
 	Parameter ECC_MODE bound to: no_ecc - type: string 
 	Parameter SIM_ASSERT_CHK bound to: 0 - type: integer 
 	Parameter WAKEUP_TIME bound to: 0 - type: integer 
-INFO: [Synth 8-3491] module 'xpm_fifo_async' declared at 'C:/Xilinx/Vivado/2020.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:2142' bound to instance 'FIFO_DATA_RX' of component 'xpm_fifo_async' [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8f9c/hdl/AXI4Stream_UART_v1_0.vhd:326]
+INFO: [Synth 8-3491] module 'xpm_fifo_async' declared at 'C:/Xilinx/Vivado/2020.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:2142' bound to instance 'FIFO_DATA_RX' of component 'xpm_fifo_async' [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8f9c/hdl/AXI4Stream_UART_v1_0.vhd:326]
 	Parameter C_M_AXIS_TDATA_WIDTH bound to: 8 - type: integer 
-INFO: [Synth 8-3491] module 'AXI4Stream_UART_v1_0_M00_AXIS_RX' declared at 'c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8f9c/hdl/AXI4Stream_UART_v1_0_M00_AXIS_RX.vhd:40' bound to instance 'AXI4Stream_UART_v1_0_M00_AXIS_RX_inst' of component 'AXI4Stream_UART_v1_0_M00_AXIS_RX' [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8f9c/hdl/AXI4Stream_UART_v1_0.vhd:367]
-INFO: [Synth 8-638] synthesizing module 'AXI4Stream_UART_v1_0_M00_AXIS_RX' [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8f9c/hdl/AXI4Stream_UART_v1_0_M00_AXIS_RX.vhd:70]
+INFO: [Synth 8-3491] module 'AXI4Stream_UART_v1_0_M00_AXIS_RX' declared at 'c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8f9c/hdl/AXI4Stream_UART_v1_0_M00_AXIS_RX.vhd:40' bound to instance 'AXI4Stream_UART_v1_0_M00_AXIS_RX_inst' of component 'AXI4Stream_UART_v1_0_M00_AXIS_RX' [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8f9c/hdl/AXI4Stream_UART_v1_0.vhd:367]
+INFO: [Synth 8-638] synthesizing module 'AXI4Stream_UART_v1_0_M00_AXIS_RX' [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8f9c/hdl/AXI4Stream_UART_v1_0_M00_AXIS_RX.vhd:70]
 	Parameter C_M_AXIS_TDATA_WIDTH bound to: 8 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'AXI4Stream_UART_v1_0_M00_AXIS_RX' (13#1) [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8f9c/hdl/AXI4Stream_UART_v1_0_M00_AXIS_RX.vhd:70]
-INFO: [Synth 8-256] done synthesizing module 'AXI4Stream_UART_v1_0' (14#1) [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8f9c/hdl/AXI4Stream_UART_v1_0.vhd:82]
-INFO: [Synth 8-256] done synthesizing module 'design_1_AXI4Stream_UART_0_0' (15#1) [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_AXI4Stream_UART_0_0/synth/design_1_AXI4Stream_UART_0_0.vhd:75]
-INFO: [Synth 8-3491] module 'design_1_bram_writer_0_0' declared at 'c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_bram_writer_0_0/synth/design_1_bram_writer_0_0.vhd:56' bound to instance 'bram_writer_0' of component 'design_1_bram_writer_0_0' [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/synth/design_1.vhd:307]
-INFO: [Synth 8-638] synthesizing module 'design_1_bram_writer_0_0' [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_bram_writer_0_0/synth/design_1_bram_writer_0_0.vhd:74]
+INFO: [Synth 8-256] done synthesizing module 'AXI4Stream_UART_v1_0_M00_AXIS_RX' (13#1) [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8f9c/hdl/AXI4Stream_UART_v1_0_M00_AXIS_RX.vhd:70]
+INFO: [Synth 8-256] done synthesizing module 'AXI4Stream_UART_v1_0' (14#1) [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8f9c/hdl/AXI4Stream_UART_v1_0.vhd:82]
+INFO: [Synth 8-256] done synthesizing module 'design_1_AXI4Stream_UART_0_0' (15#1) [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_AXI4Stream_UART_0_0/synth/design_1_AXI4Stream_UART_0_0.vhd:75]
+INFO: [Synth 8-3491] module 'design_1_bram_writer_0_0' declared at 'c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_bram_writer_0_0/synth/design_1_bram_writer_0_0.vhd:56' bound to instance 'bram_writer_0' of component 'design_1_bram_writer_0_0' [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/synth/design_1.vhd:307]
+INFO: [Synth 8-638] synthesizing module 'design_1_bram_writer_0_0' [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_bram_writer_0_0/synth/design_1_bram_writer_0_0.vhd:74]
 	Parameter ADDR_WIDTH bound to: 16 - type: integer 
-INFO: [Synth 8-3491] module 'bram_writer' declared at 'C:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.srcs/sources_1/imports/template/bram_writer.vhd:5' bound to instance 'U0' of component 'bram_writer' [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_bram_writer_0_0/synth/design_1_bram_writer_0_0.vhd:117]
-INFO: [Synth 8-638] synthesizing module 'bram_controller' [C:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.srcs/sources_1/imports/LAB_2/bram_controller.vhd:22]
+INFO: [Synth 8-3491] module 'bram_writer' declared at 'C:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.srcs/sources_1/imports/template/bram_writer.vhd:5' bound to instance 'U0' of component 'bram_writer' [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_bram_writer_0_0/synth/design_1_bram_writer_0_0.vhd:117]
+INFO: [Synth 8-638] synthesizing module 'bram_controller' [C:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.srcs/sources_1/imports/LAB_2/bram_controller.vhd:22]
 	Parameter MEMORY_SIZE bound to: 524288 - type: integer 
 	Parameter MEMORY_PRIMITIVE bound to: block - type: string 
 	Parameter ECC_MODE bound to: no_ecc - type: string 
@@ -416,7 +414,7 @@ INFO: [Synth 8-638] synthesizing module 'bram_controller' [C:/Users/chiar/Deskto
 	Parameter READ_LATENCY_A bound to: 1 - type: integer 
 	Parameter WRITE_MODE_A bound to: read_first - type: string 
 	Parameter RST_MODE_A bound to: SYNC - type: string 
-INFO: [Synth 8-3491] module 'xpm_memory_spram' declared at 'C:/Xilinx/Vivado/2020.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:8571' bound to instance 'xpm_memory_spram_inst' of component 'xpm_memory_spram' [C:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.srcs/sources_1/imports/LAB_2/bram_controller.vhd:29]
+INFO: [Synth 8-3491] module 'xpm_memory_spram' declared at 'C:/Xilinx/Vivado/2020.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:8571' bound to instance 'xpm_memory_spram_inst' of component 'xpm_memory_spram' [C:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.srcs/sources_1/imports/LAB_2/bram_controller.vhd:29]
 INFO: [Synth 8-6157] synthesizing module 'xpm_memory_spram' [C:/Xilinx/Vivado/2020.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:8571]
 	Parameter MEMORY_SIZE bound to: 524288 - type: integer 
 	Parameter MEMORY_PRIMITIVE bound to: block - type: string 
@@ -517,11 +515,11 @@ INFO: [Synth 8-6157] synthesizing module 'xpm_memory_base__parameterized0' [C:/X
 INFO: [Synth 8-6059] Synth Info: [XPM_MEMORY 20-2] MEMORY_INIT_FILE (none), MEMORY_INIT_PARAM together specify no memory initialization. Initial memory contents will be all 0's.   [C:/Xilinx/Vivado/2020.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:490]
 INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_base__parameterized0' (15#1) [C:/Xilinx/Vivado/2020.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:57]
 INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_spram' (16#1) [C:/Xilinx/Vivado/2020.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:8571]
-INFO: [Synth 8-256] done synthesizing module 'bram_controller' (17#1) [C:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.srcs/sources_1/imports/LAB_2/bram_controller.vhd:22]
-INFO: [Synth 8-256] done synthesizing module 'design_1_bram_writer_0_0' (19#1) [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_bram_writer_0_0/synth/design_1_bram_writer_0_0.vhd:74]
-INFO: [Synth 8-3491] module 'design_1_clk_wiz_0_0' declared at 'c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.v:70' bound to instance 'clk_wiz_0' of component 'design_1_clk_wiz_0_0' [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/synth/design_1.vhd:323]
-INFO: [Synth 8-6157] synthesizing module 'design_1_clk_wiz_0_0' [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.v:70]
-INFO: [Synth 8-6157] synthesizing module 'design_1_clk_wiz_0_0_clk_wiz' [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_clk_wiz.v:68]
+INFO: [Synth 8-256] done synthesizing module 'bram_controller' (17#1) [C:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.srcs/sources_1/imports/LAB_2/bram_controller.vhd:22]
+INFO: [Synth 8-256] done synthesizing module 'design_1_bram_writer_0_0' (19#1) [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_bram_writer_0_0/synth/design_1_bram_writer_0_0.vhd:74]
+INFO: [Synth 8-3491] module 'design_1_clk_wiz_0_0' declared at 'c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.v:70' bound to instance 'clk_wiz_0' of component 'design_1_clk_wiz_0_0' [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/synth/design_1.vhd:323]
+INFO: [Synth 8-6157] synthesizing module 'design_1_clk_wiz_0_0' [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.v:70]
+INFO: [Synth 8-6157] synthesizing module 'design_1_clk_wiz_0_0_clk_wiz' [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_clk_wiz.v:68]
 INFO: [Synth 8-6157] synthesizing module 'IBUF' [C:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:32983]
 	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
 	Parameter IBUF_DELAY_VALUE bound to: 0 - type: string 
@@ -581,53 +579,53 @@ INFO: [Synth 8-6157] synthesizing module 'MMCME2_ADV' [C:/Xilinx/Vivado/2020.2/s
 INFO: [Synth 8-6155] done synthesizing module 'MMCME2_ADV' (21#1) [C:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:39998]
 INFO: [Synth 8-6157] synthesizing module 'BUFG' [C:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:1083]
 INFO: [Synth 8-6155] done synthesizing module 'BUFG' (22#1) [C:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:1083]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_clk_wiz_0_0_clk_wiz' (23#1) [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_clk_wiz.v:68]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_clk_wiz_0_0' (24#1) [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.v:70]
-INFO: [Synth 8-3491] module 'design_1_depacketizer_0_0' declared at 'c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_depacketizer_0_0/synth/design_1_depacketizer_0_0.vhd:56' bound to instance 'depacketizer_0' of component 'design_1_depacketizer_0_0' [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/synth/design_1.vhd:330]
-INFO: [Synth 8-638] synthesizing module 'design_1_depacketizer_0_0' [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_depacketizer_0_0/synth/design_1_depacketizer_0_0.vhd:70]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_clk_wiz_0_0_clk_wiz' (23#1) [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_clk_wiz.v:68]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_clk_wiz_0_0' (24#1) [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.v:70]
+INFO: [Synth 8-3491] module 'design_1_depacketizer_0_0' declared at 'c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_depacketizer_0_0/synth/design_1_depacketizer_0_0.vhd:56' bound to instance 'depacketizer_0' of component 'design_1_depacketizer_0_0' [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/synth/design_1.vhd:330]
+INFO: [Synth 8-638] synthesizing module 'design_1_depacketizer_0_0' [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_depacketizer_0_0/synth/design_1_depacketizer_0_0.vhd:70]
 	Parameter HEADER bound to: 255 - type: integer 
 	Parameter FOOTER bound to: 241 - type: integer 
-INFO: [Synth 8-3491] module 'depacketizer' declared at 'C:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.srcs/sources_1/imports/template/depacketizer.vhd:6' bound to instance 'U0' of component 'depacketizer' [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_depacketizer_0_0/synth/design_1_depacketizer_0_0.vhd:114]
-INFO: [Synth 8-256] done synthesizing module 'design_1_depacketizer_0_0' (26#1) [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_depacketizer_0_0/synth/design_1_depacketizer_0_0.vhd:70]
-INFO: [Synth 8-3491] module 'design_1_img_conv_0_0' declared at 'c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_img_conv_0_0/synth/design_1_img_conv_0_0.vhd:56' bound to instance 'img_conv_0' of component 'design_1_img_conv_0_0' [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/synth/design_1.vhd:342]
-INFO: [Synth 8-638] synthesizing module 'design_1_img_conv_0_0' [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_img_conv_0_0/synth/design_1_img_conv_0_0.vhd:71]
+INFO: [Synth 8-3491] module 'depacketizer' declared at 'C:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.srcs/sources_1/imports/template/depacketizer.vhd:6' bound to instance 'U0' of component 'depacketizer' [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_depacketizer_0_0/synth/design_1_depacketizer_0_0.vhd:114]
+INFO: [Synth 8-256] done synthesizing module 'design_1_depacketizer_0_0' (26#1) [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_depacketizer_0_0/synth/design_1_depacketizer_0_0.vhd:70]
+INFO: [Synth 8-3491] module 'design_1_img_conv_0_0' declared at 'c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_img_conv_0_0/synth/design_1_img_conv_0_0.vhd:56' bound to instance 'img_conv_0' of component 'design_1_img_conv_0_0' [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/synth/design_1.vhd:342]
+INFO: [Synth 8-638] synthesizing module 'design_1_img_conv_0_0' [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_img_conv_0_0/synth/design_1_img_conv_0_0.vhd:71]
 	Parameter LOG2_N_COLS bound to: 8 - type: integer 
 	Parameter LOG2_N_ROWS bound to: 8 - type: integer 
-INFO: [Synth 8-3491] module 'img_conv' declared at 'C:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.srcs/sources_1/imports/template/img_conv.vhd:5' bound to instance 'U0' of component 'img_conv' [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_img_conv_0_0/synth/design_1_img_conv_0_0.vhd:112]
-INFO: [Synth 8-256] done synthesizing module 'design_1_img_conv_0_0' (28#1) [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_img_conv_0_0/synth/design_1_img_conv_0_0.vhd:71]
-INFO: [Synth 8-3491] module 'design_1_led_blinker_0_0' declared at 'c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_led_blinker_0_0/synth/design_1_led_blinker_0_0.vhd:56' bound to instance 'led_blinker_0' of component 'design_1_led_blinker_0_0' [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/synth/design_1.vhd:355]
-INFO: [Synth 8-638] synthesizing module 'design_1_led_blinker_0_0' [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_led_blinker_0_0/synth/design_1_led_blinker_0_0.vhd:65]
+INFO: [Synth 8-3491] module 'img_conv' declared at 'C:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.srcs/sources_1/imports/template/img_conv.vhd:5' bound to instance 'U0' of component 'img_conv' [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_img_conv_0_0/synth/design_1_img_conv_0_0.vhd:112]
+INFO: [Synth 8-256] done synthesizing module 'design_1_img_conv_0_0' (28#1) [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_img_conv_0_0/synth/design_1_img_conv_0_0.vhd:71]
+INFO: [Synth 8-3491] module 'design_1_led_blinker_0_0' declared at 'c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_led_blinker_0_0/synth/design_1_led_blinker_0_0.vhd:56' bound to instance 'led_blinker_0' of component 'design_1_led_blinker_0_0' [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/synth/design_1.vhd:355]
+INFO: [Synth 8-638] synthesizing module 'design_1_led_blinker_0_0' [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_led_blinker_0_0/synth/design_1_led_blinker_0_0.vhd:65]
 	Parameter CLK_PERIOD_NS bound to: 10 - type: integer 
 	Parameter BLINK_PERIOD_MS bound to: 1000 - type: integer 
 	Parameter N_BLINKS bound to: 4 - type: integer 
-INFO: [Synth 8-3491] module 'led_blinker' declared at 'C:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.srcs/sources_1/imports/template/led_blinker.vhd:6' bound to instance 'U0' of component 'led_blinker' [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_led_blinker_0_0/synth/design_1_led_blinker_0_0.vhd:96]
-INFO: [Synth 8-256] done synthesizing module 'design_1_led_blinker_0_0' (30#1) [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_led_blinker_0_0/synth/design_1_led_blinker_0_0.vhd:65]
-INFO: [Synth 8-3491] module 'design_1_led_blinker_0_1' declared at 'c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_led_blinker_0_1/synth/design_1_led_blinker_0_1.vhd:56' bound to instance 'led_blinker_1' of component 'design_1_led_blinker_0_1' [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/synth/design_1.vhd:362]
-INFO: [Synth 8-638] synthesizing module 'design_1_led_blinker_0_1' [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_led_blinker_0_1/synth/design_1_led_blinker_0_1.vhd:65]
+INFO: [Synth 8-3491] module 'led_blinker' declared at 'C:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.srcs/sources_1/imports/template/led_blinker.vhd:6' bound to instance 'U0' of component 'led_blinker' [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_led_blinker_0_0/synth/design_1_led_blinker_0_0.vhd:96]
+INFO: [Synth 8-256] done synthesizing module 'design_1_led_blinker_0_0' (30#1) [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_led_blinker_0_0/synth/design_1_led_blinker_0_0.vhd:65]
+INFO: [Synth 8-3491] module 'design_1_led_blinker_0_1' declared at 'c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_led_blinker_0_1/synth/design_1_led_blinker_0_1.vhd:56' bound to instance 'led_blinker_1' of component 'design_1_led_blinker_0_1' [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/synth/design_1.vhd:362]
+INFO: [Synth 8-638] synthesizing module 'design_1_led_blinker_0_1' [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_led_blinker_0_1/synth/design_1_led_blinker_0_1.vhd:65]
 	Parameter CLK_PERIOD_NS bound to: 10 - type: integer 
 	Parameter BLINK_PERIOD_MS bound to: 1000 - type: integer 
 	Parameter N_BLINKS bound to: 4 - type: integer 
-INFO: [Synth 8-3491] module 'led_blinker' declared at 'C:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.srcs/sources_1/imports/template/led_blinker.vhd:6' bound to instance 'U0' of component 'led_blinker' [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_led_blinker_0_1/synth/design_1_led_blinker_0_1.vhd:96]
-INFO: [Synth 8-256] done synthesizing module 'design_1_led_blinker_0_1' (31#1) [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_led_blinker_0_1/synth/design_1_led_blinker_0_1.vhd:65]
-INFO: [Synth 8-3491] module 'design_1_led_blinker_0_2' declared at 'c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_led_blinker_0_2/synth/design_1_led_blinker_0_2.vhd:56' bound to instance 'led_blinker_2' of component 'design_1_led_blinker_0_2' [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/synth/design_1.vhd:369]
-INFO: [Synth 8-638] synthesizing module 'design_1_led_blinker_0_2' [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_led_blinker_0_2/synth/design_1_led_blinker_0_2.vhd:65]
+INFO: [Synth 8-3491] module 'led_blinker' declared at 'C:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.srcs/sources_1/imports/template/led_blinker.vhd:6' bound to instance 'U0' of component 'led_blinker' [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_led_blinker_0_1/synth/design_1_led_blinker_0_1.vhd:96]
+INFO: [Synth 8-256] done synthesizing module 'design_1_led_blinker_0_1' (31#1) [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_led_blinker_0_1/synth/design_1_led_blinker_0_1.vhd:65]
+INFO: [Synth 8-3491] module 'design_1_led_blinker_0_2' declared at 'c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_led_blinker_0_2/synth/design_1_led_blinker_0_2.vhd:56' bound to instance 'led_blinker_2' of component 'design_1_led_blinker_0_2' [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/synth/design_1.vhd:369]
+INFO: [Synth 8-638] synthesizing module 'design_1_led_blinker_0_2' [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_led_blinker_0_2/synth/design_1_led_blinker_0_2.vhd:65]
 	Parameter CLK_PERIOD_NS bound to: 10 - type: integer 
 	Parameter BLINK_PERIOD_MS bound to: 1000 - type: integer 
 	Parameter N_BLINKS bound to: 4 - type: integer 
-INFO: [Synth 8-3491] module 'led_blinker' declared at 'C:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.srcs/sources_1/imports/template/led_blinker.vhd:6' bound to instance 'U0' of component 'led_blinker' [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_led_blinker_0_2/synth/design_1_led_blinker_0_2.vhd:96]
-INFO: [Synth 8-256] done synthesizing module 'design_1_led_blinker_0_2' (32#1) [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_led_blinker_0_2/synth/design_1_led_blinker_0_2.vhd:65]
-INFO: [Synth 8-3491] module 'design_1_packetizer_0_1' declared at 'c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_packetizer_0_1/synth/design_1_packetizer_0_1.vhd:56' bound to instance 'packetizer_0' of component 'design_1_packetizer_0_1' [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/synth/design_1.vhd:376]
-INFO: [Synth 8-638] synthesizing module 'design_1_packetizer_0_1' [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_packetizer_0_1/synth/design_1_packetizer_0_1.vhd:70]
+INFO: [Synth 8-3491] module 'led_blinker' declared at 'C:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.srcs/sources_1/imports/template/led_blinker.vhd:6' bound to instance 'U0' of component 'led_blinker' [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_led_blinker_0_2/synth/design_1_led_blinker_0_2.vhd:96]
+INFO: [Synth 8-256] done synthesizing module 'design_1_led_blinker_0_2' (32#1) [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_led_blinker_0_2/synth/design_1_led_blinker_0_2.vhd:65]
+INFO: [Synth 8-3491] module 'design_1_packetizer_0_1' declared at 'c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_packetizer_0_1/synth/design_1_packetizer_0_1.vhd:56' bound to instance 'packetizer_0' of component 'design_1_packetizer_0_1' [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/synth/design_1.vhd:376]
+INFO: [Synth 8-638] synthesizing module 'design_1_packetizer_0_1' [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_packetizer_0_1/synth/design_1_packetizer_0_1.vhd:70]
 	Parameter HEADER bound to: 255 - type: integer 
 	Parameter FOOTER bound to: 241 - type: integer 
-INFO: [Synth 8-3491] module 'packetizer' declared at 'C:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.srcs/sources_1/imports/template/packetizer - Copia.vhd:5' bound to instance 'U0' of component 'packetizer' [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_packetizer_0_1/synth/design_1_packetizer_0_1.vhd:114]
-INFO: [Synth 8-638] synthesizing module 'packetizer' [C:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.srcs/sources_1/imports/template/packetizer - Copia.vhd:25]
+INFO: [Synth 8-3491] module 'packetizer' declared at 'C:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.srcs/sources_1/imports/template/packetizer - Copia.vhd:5' bound to instance 'U0' of component 'packetizer' [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_packetizer_0_1/synth/design_1_packetizer_0_1.vhd:114]
+INFO: [Synth 8-638] synthesizing module 'packetizer' [C:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.srcs/sources_1/imports/template/packetizer - Copia.vhd:25]
 	Parameter HEADER bound to: 255 - type: integer 
 	Parameter FOOTER bound to: 241 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'packetizer' (33#1) [C:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.srcs/sources_1/imports/template/packetizer - Copia.vhd:25]
-INFO: [Synth 8-256] done synthesizing module 'design_1_packetizer_0_1' (34#1) [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_packetizer_0_1/synth/design_1_packetizer_0_1.vhd:70]
-INFO: [Synth 8-3491] module 'design_1_proc_sys_reset_0_0' declared at 'c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/synth/design_1_proc_sys_reset_0_0.vhd:59' bound to instance 'proc_sys_reset_0' of component 'design_1_proc_sys_reset_0_0' [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/synth/design_1.vhd:388]
-INFO: [Synth 8-638] synthesizing module 'design_1_proc_sys_reset_0_0' [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/synth/design_1_proc_sys_reset_0_0.vhd:74]
+INFO: [Synth 8-256] done synthesizing module 'packetizer' (33#1) [C:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.srcs/sources_1/imports/template/packetizer - Copia.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'design_1_packetizer_0_1' (34#1) [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_packetizer_0_1/synth/design_1_packetizer_0_1.vhd:70]
+INFO: [Synth 8-3491] module 'design_1_proc_sys_reset_0_0' declared at 'c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/synth/design_1_proc_sys_reset_0_0.vhd:59' bound to instance 'proc_sys_reset_0' of component 'design_1_proc_sys_reset_0_0' [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/synth/design_1.vhd:388]
+INFO: [Synth 8-638] synthesizing module 'design_1_proc_sys_reset_0_0' [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/synth/design_1_proc_sys_reset_0_0.vhd:74]
 	Parameter C_FAMILY bound to: artix7 - type: string 
 	Parameter C_EXT_RST_WIDTH bound to: 4 - type: integer 
 	Parameter C_AUX_RST_WIDTH bound to: 4 - type: integer 
@@ -637,8 +635,8 @@ INFO: [Synth 8-638] synthesizing module 'design_1_proc_sys_reset_0_0' [c:/Users/
 	Parameter C_NUM_PERP_RST bound to: 1 - type: integer 
 	Parameter C_NUM_INTERCONNECT_ARESETN bound to: 1 - type: integer 
 	Parameter C_NUM_PERP_ARESETN bound to: 1 - type: integer 
-INFO: [Synth 8-3491] module 'proc_sys_reset' declared at 'c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1264' bound to instance 'U0' of component 'proc_sys_reset' [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/synth/design_1_proc_sys_reset_0_0.vhd:129]
-INFO: [Synth 8-638] synthesizing module 'proc_sys_reset' [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1323]
+INFO: [Synth 8-3491] module 'proc_sys_reset' declared at 'c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1264' bound to instance 'U0' of component 'proc_sys_reset' [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/synth/design_1_proc_sys_reset_0_0.vhd:129]
+INFO: [Synth 8-638] synthesizing module 'proc_sys_reset' [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1323]
 	Parameter C_FAMILY bound to: artix7 - type: string 
 	Parameter C_EXT_RST_WIDTH bound to: 4 - type: integer 
 	Parameter C_AUX_RST_WIDTH bound to: 4 - type: integer 
@@ -652,37 +650,37 @@ INFO: [Synth 8-638] synthesizing module 'proc_sys_reset' [c:/Users/chiar/Desktop
 	Parameter IS_C_INVERTED bound to: 1'b0 
 	Parameter IS_D_INVERTED bound to: 1'b0 
 	Parameter IS_R_INVERTED bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'FDRE_inst' to cell 'FDRE' [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1392]
+INFO: [Synth 8-113] binding component instance 'FDRE_inst' to cell 'FDRE' [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1392]
 	Parameter INIT bound to: 1'b1 
 	Parameter IS_C_INVERTED bound to: 1'b0 
 	Parameter IS_D_INVERTED bound to: 1'b0 
 	Parameter IS_R_INVERTED bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'FDRE_BSR' to cell 'FDRE' [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1408]
+INFO: [Synth 8-113] binding component instance 'FDRE_BSR' to cell 'FDRE' [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1408]
 	Parameter INIT bound to: 1'b0 
 	Parameter IS_C_INVERTED bound to: 1'b0 
 	Parameter IS_D_INVERTED bound to: 1'b0 
 	Parameter IS_R_INVERTED bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'FDRE_BSR_N' to cell 'FDRE' [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1434]
+INFO: [Synth 8-113] binding component instance 'FDRE_BSR_N' to cell 'FDRE' [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1434]
 	Parameter INIT bound to: 1'b1 
 	Parameter IS_C_INVERTED bound to: 1'b0 
 	Parameter IS_D_INVERTED bound to: 1'b0 
 	Parameter IS_R_INVERTED bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'FDRE_PER' to cell 'FDRE' [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1457]
+INFO: [Synth 8-113] binding component instance 'FDRE_PER' to cell 'FDRE' [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1457]
 	Parameter INIT bound to: 1'b0 
 	Parameter IS_C_INVERTED bound to: 1'b0 
 	Parameter IS_D_INVERTED bound to: 1'b0 
 	Parameter IS_R_INVERTED bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'FDRE_PER_N' to cell 'FDRE' [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1481]
-INFO: [Synth 8-638] synthesizing module 'lpf' [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:816]
+INFO: [Synth 8-113] binding component instance 'FDRE_PER_N' to cell 'FDRE' [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1481]
+INFO: [Synth 8-638] synthesizing module 'lpf' [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:816]
 	Parameter C_EXT_RST_WIDTH bound to: 4 - type: integer 
 	Parameter C_AUX_RST_WIDTH bound to: 4 - type: integer 
 	Parameter C_EXT_RESET_HIGH bound to: 1'b1 
 	Parameter C_AUX_RESET_HIGH bound to: 1'b0 
-INFO: [Synth 8-3491] module 'SRL16' declared at 'C:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:78018' bound to instance 'POR_SRL_I' of component 'SRL16' [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:868]
+INFO: [Synth 8-3491] module 'SRL16' declared at 'C:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:78018' bound to instance 'POR_SRL_I' of component 'SRL16' [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:868]
 INFO: [Synth 8-6157] synthesizing module 'SRL16' [C:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:78018]
 	Parameter INIT bound to: 16'b0000000000000000 
 INFO: [Synth 8-6155] done synthesizing module 'SRL16' (35#1) [C:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:78018]
-INFO: [Synth 8-638] synthesizing module 'cdc_sync' [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync' [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:106]
 	Parameter C_CDC_TYPE bound to: 1 - type: integer 
 	Parameter C_RESET_STATE bound to: 0 - type: integer 
 	Parameter C_SINGLE_BIT bound to: 1 - type: integer 
@@ -690,37 +688,37 @@ INFO: [Synth 8-638] synthesizing module 'cdc_sync' [c:/Users/chiar/Desktop/DESD-
 	Parameter C_VECTOR_WIDTH bound to: 2 - type: integer 
 	Parameter C_MTBF_STAGES bound to: 4 - type: integer 
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_IN_cdc_to' to cell 'FDR' [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:514]
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_IN_cdc_to' to cell 'FDR' [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:514]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d2' to cell 'FDR' [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:545]
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d2' to cell 'FDR' [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:545]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d3' to cell 'FDR' [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:554]
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d3' to cell 'FDR' [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:554]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d4' to cell 'FDR' [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:564]
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d4' to cell 'FDR' [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:564]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5' to cell 'FDR' [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:574]
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5' to cell 'FDR' [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:574]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d6' to cell 'FDR' [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:584]
-INFO: [Synth 8-256] done synthesizing module 'cdc_sync' (36#1) [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:106]
-INFO: [Synth 8-256] done synthesizing module 'lpf' (37#1) [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:816]
-INFO: [Synth 8-638] synthesizing module 'sequence_psr' [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:301]
-INFO: [Synth 8-638] synthesizing module 'upcnt_n' [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:125]
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d6' to cell 'FDR' [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:584]
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync' (36#1) [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'lpf' (37#1) [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:816]
+INFO: [Synth 8-638] synthesizing module 'sequence_psr' [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:301]
+INFO: [Synth 8-638] synthesizing module 'upcnt_n' [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:125]
 	Parameter C_SIZE bound to: 6 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'upcnt_n' (38#1) [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:125]
-INFO: [Synth 8-256] done synthesizing module 'sequence_psr' (39#1) [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:301]
-INFO: [Synth 8-256] done synthesizing module 'proc_sys_reset' (40#1) [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1323]
-INFO: [Synth 8-256] done synthesizing module 'design_1_proc_sys_reset_0_0' (41#1) [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/synth/design_1_proc_sys_reset_0_0.vhd:74]
-INFO: [Synth 8-3491] module 'design_1_rgb2gray_0_0' declared at 'c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_rgb2gray_0_0/synth/design_1_rgb2gray_0_0.vhd:56' bound to instance 'rgb2gray_0' of component 'design_1_rgb2gray_0_0' [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/synth/design_1.vhd:401]
-INFO: [Synth 8-638] synthesizing module 'design_1_rgb2gray_0_0' [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_rgb2gray_0_0/synth/design_1_rgb2gray_0_0.vhd:71]
-INFO: [Synth 8-3491] module 'rgb2gray' declared at 'C:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.srcs/sources_1/imports/template/rgb2gray.vhd:12' bound to instance 'U0' of component 'rgb2gray' [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_rgb2gray_0_0/synth/design_1_rgb2gray_0_0.vhd:113]
-INFO: [Synth 8-256] done synthesizing module 'design_1_rgb2gray_0_0' (44#1) [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_rgb2gray_0_0/synth/design_1_rgb2gray_0_0.vhd:71]
-INFO: [Synth 8-3491] module 'design_1_system_ila_0_0' declared at 'c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/synth/design_1_system_ila_0_0.vhd:56' bound to instance 'system_ila_0' of component 'design_1_system_ila_0_0' [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/synth/design_1.vhd:414]
-INFO: [Synth 8-638] synthesizing module 'design_1_system_ila_0_0' [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/synth/design_1_system_ila_0_0.vhd:79]
-INFO: [Synth 8-3491] module 'bd_f60c' declared at 'c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/synth/bd_f60c.vhd:11' bound to instance 'U0' of component 'bd_f60c' [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/synth/design_1_system_ila_0_0.vhd:291]
-INFO: [Synth 8-638] synthesizing module 'bd_f60c' [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/synth/bd_f60c.vhd:38]
-INFO: [Synth 8-3491] module 'bd_f60c_g_inst_0' declared at 'c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_1/synth/bd_f60c_g_inst_0.v:116' bound to instance 'g_inst' of component 'bd_f60c_g_inst_0' [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/synth/bd_f60c.vhd:160]
-INFO: [Synth 8-6157] synthesizing module 'bd_f60c_g_inst_0' [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_1/synth/bd_f60c_g_inst_0.v:116]
-INFO: [Synth 8-6157] synthesizing module 'bd_f60c_g_inst_0_gigantic_mux' [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_1/bd_f60c_g_inst_0_gigantic_mux.v:63]
+INFO: [Synth 8-256] done synthesizing module 'upcnt_n' (38#1) [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:125]
+INFO: [Synth 8-256] done synthesizing module 'sequence_psr' (39#1) [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:301]
+INFO: [Synth 8-256] done synthesizing module 'proc_sys_reset' (40#1) [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1323]
+INFO: [Synth 8-256] done synthesizing module 'design_1_proc_sys_reset_0_0' (41#1) [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/synth/design_1_proc_sys_reset_0_0.vhd:74]
+INFO: [Synth 8-3491] module 'design_1_rgb2gray_0_0' declared at 'c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_rgb2gray_0_0/synth/design_1_rgb2gray_0_0.vhd:56' bound to instance 'rgb2gray_0' of component 'design_1_rgb2gray_0_0' [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/synth/design_1.vhd:401]
+INFO: [Synth 8-638] synthesizing module 'design_1_rgb2gray_0_0' [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_rgb2gray_0_0/synth/design_1_rgb2gray_0_0.vhd:71]
+INFO: [Synth 8-3491] module 'rgb2gray' declared at 'C:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.srcs/sources_1/imports/template/rgb2gray.vhd:12' bound to instance 'U0' of component 'rgb2gray' [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_rgb2gray_0_0/synth/design_1_rgb2gray_0_0.vhd:113]
+INFO: [Synth 8-256] done synthesizing module 'design_1_rgb2gray_0_0' (44#1) [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_rgb2gray_0_0/synth/design_1_rgb2gray_0_0.vhd:71]
+INFO: [Synth 8-3491] module 'design_1_system_ila_0_0' declared at 'c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/synth/design_1_system_ila_0_0.vhd:56' bound to instance 'system_ila_0' of component 'design_1_system_ila_0_0' [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/synth/design_1.vhd:414]
+INFO: [Synth 8-638] synthesizing module 'design_1_system_ila_0_0' [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/synth/design_1_system_ila_0_0.vhd:79]
+INFO: [Synth 8-3491] module 'bd_f60c' declared at 'c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/synth/bd_f60c.vhd:11' bound to instance 'U0' of component 'bd_f60c' [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/synth/design_1_system_ila_0_0.vhd:291]
+INFO: [Synth 8-638] synthesizing module 'bd_f60c' [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/synth/bd_f60c.vhd:38]
+INFO: [Synth 8-3491] module 'bd_f60c_g_inst_0' declared at 'c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_1/synth/bd_f60c_g_inst_0.v:116' bound to instance 'g_inst' of component 'bd_f60c_g_inst_0' [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/synth/bd_f60c.vhd:160]
+INFO: [Synth 8-6157] synthesizing module 'bd_f60c_g_inst_0' [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_1/synth/bd_f60c_g_inst_0.v:116]
+INFO: [Synth 8-6157] synthesizing module 'bd_f60c_g_inst_0_gigantic_mux' [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_1/bd_f60c_g_inst_0_gigantic_mux.v:63]
 	Parameter C_NUM_MONITOR_SLOTS bound to: 3 - type: integer 
 	Parameter C_MUX_LEVEL bound to: 1 - type: integer 
 	Parameter C_AXI_CH_SEL bound to: ALL - type: string 
@@ -2063,10 +2061,10 @@ INFO: [Synth 8-6157] synthesizing module 'bd_f60c_g_inst_0_gigantic_mux' [c:/Use
 	Parameter C_SLOT_15_AXIS_TDEST_WIDTH bound to: 1 - type: integer 
 	Parameter C_SLOT_15_AXIS_TUSER_WIDTH bound to: 1 - type: integer 
 	Parameter C_EN_GIGAMUX bound to: 1'b0 
-INFO: [Synth 8-6155] done synthesizing module 'bd_f60c_g_inst_0_gigantic_mux' (46#1) [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_1/bd_f60c_g_inst_0_gigantic_mux.v:63]
-INFO: [Synth 8-6155] done synthesizing module 'bd_f60c_g_inst_0' (47#1) [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_1/synth/bd_f60c_g_inst_0.v:116]
-INFO: [Synth 8-3491] module 'bd_f60c_ila_lib_0' declared at 'c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_0/synth/bd_f60c_ila_lib_0.vhd:53' bound to instance 'ila_lib' of component 'bd_f60c_ila_lib_0' [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/synth/bd_f60c.vhd:189]
-INFO: [Synth 8-638] synthesizing module 'bd_f60c_ila_lib_0' [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_0/synth/bd_f60c_ila_lib_0.vhd:77]
+INFO: [Synth 8-6155] done synthesizing module 'bd_f60c_g_inst_0_gigantic_mux' (46#1) [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_1/bd_f60c_g_inst_0_gigantic_mux.v:63]
+INFO: [Synth 8-6155] done synthesizing module 'bd_f60c_g_inst_0' (47#1) [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_1/synth/bd_f60c_g_inst_0.v:116]
+INFO: [Synth 8-3491] module 'bd_f60c_ila_lib_0' declared at 'c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_0/synth/bd_f60c_ila_lib_0.vhd:53' bound to instance 'ila_lib' of component 'bd_f60c_ila_lib_0' [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/synth/bd_f60c.vhd:189]
+INFO: [Synth 8-638] synthesizing module 'bd_f60c_ila_lib_0' [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_0/synth/bd_f60c_ila_lib_0.vhd:77]
 	Parameter C_XLNX_HW_PROBE_INFO bound to: DEFAULT - type: string 
 	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
 	Parameter C_CORE_TYPE bound to: 1 - type: integer 
@@ -5169,7 +5167,7 @@ INFO: [Synth 8-638] synthesizing module 'bd_f60c_ila_lib_0' [c:/Users/chiar/Desk
 	Parameter C_PROBE1021_TYPE bound to: 1 - type: integer 
 	Parameter C_PROBE1022_TYPE bound to: 1 - type: integer 
 	Parameter C_PROBE1023_TYPE bound to: 1 - type: integer 
-INFO: [Synth 8-3491] module 'ila_v6_2_11_ila' declared at 'c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/c968/hdl/ila_v6_2_syn_rfs.v:5642' bound to instance 'U0' of component 'ila_v6_2_11_ila' [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_0/synth/bd_f60c_ila_lib_0.vhd:4262]
+INFO: [Synth 8-3491] module 'ila_v6_2_11_ila' declared at 'c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/c968/hdl/ila_v6_2_syn_rfs.v:5642' bound to instance 'U0' of component 'ila_v6_2_11_ila' [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_0/synth/bd_f60c_ila_lib_0.vhd:4262]
 INFO: [Synth 8-6157] synthesizing module 'CFGLUT5' [C:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:1524]
 INFO: [Synth 8-6155] done synthesizing module 'CFGLUT5' (55#1) [C:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:1524]
 INFO: [Synth 8-6157] synthesizing module 'CARRY4' [C:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:1487]
@@ -5182,60 +5180,60 @@ INFO: [Synth 8-6157] synthesizing module 'SRLC16E' [C:/Xilinx/Vivado/2020.2/scri
 INFO: [Synth 8-6155] done synthesizing module 'SRLC16E' (70#1) [C:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:78123]
 INFO: [Synth 8-6157] synthesizing module 'FDRE' [C:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:13724]
 INFO: [Synth 8-6155] done synthesizing module 'FDRE' (75#1) [C:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:13724]
-INFO: [Synth 8-256] done synthesizing module 'bd_f60c_ila_lib_0' (93#1) [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_0/synth/bd_f60c_ila_lib_0.vhd:77]
-INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'ila_lib'. This will prevent further optimization [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/synth/bd_f60c.vhd:189]
-INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'g_inst'. This will prevent further optimization [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/synth/bd_f60c.vhd:160]
-INFO: [Synth 8-256] done synthesizing module 'bd_f60c' (94#1) [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/synth/bd_f60c.vhd:38]
-INFO: [Synth 8-256] done synthesizing module 'design_1_system_ila_0_0' (95#1) [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/synth/design_1_system_ila_0_0.vhd:79]
-INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'system_ila_0'. This will prevent further optimization [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/synth/design_1.vhd:414]
-INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'img_conv_0'. This will prevent further optimization [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/synth/design_1.vhd:342]
-INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'bram_writer_0'. This will prevent further optimization [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/synth/design_1.vhd:307]
-INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'rgb2gray_0'. This will prevent further optimization [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/synth/design_1.vhd:401]
-INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'depacketizer_0'. This will prevent further optimization [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/synth/design_1.vhd:330]
-INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'packetizer_0'. This will prevent further optimization [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/synth/design_1.vhd:376]
-INFO: [Synth 8-256] done synthesizing module 'design_1' (96#1) [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/synth/design_1.vhd:30]
-INFO: [Synth 8-256] done synthesizing module 'design_1_wrapper' (97#1) [C:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.srcs/sources_1/imports/design_1_wrapper.vhd:26]
+INFO: [Synth 8-256] done synthesizing module 'bd_f60c_ila_lib_0' (93#1) [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_0/synth/bd_f60c_ila_lib_0.vhd:77]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'ila_lib'. This will prevent further optimization [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/synth/bd_f60c.vhd:189]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'g_inst'. This will prevent further optimization [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/synth/bd_f60c.vhd:160]
+INFO: [Synth 8-256] done synthesizing module 'bd_f60c' (94#1) [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/synth/bd_f60c.vhd:38]
+INFO: [Synth 8-256] done synthesizing module 'design_1_system_ila_0_0' (95#1) [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/synth/design_1_system_ila_0_0.vhd:79]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'system_ila_0'. This will prevent further optimization [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/synth/design_1.vhd:414]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'img_conv_0'. This will prevent further optimization [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/synth/design_1.vhd:342]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'bram_writer_0'. This will prevent further optimization [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/synth/design_1.vhd:307]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'rgb2gray_0'. This will prevent further optimization [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/synth/design_1.vhd:401]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'depacketizer_0'. This will prevent further optimization [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/synth/design_1.vhd:330]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'packetizer_0'. This will prevent further optimization [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/synth/design_1.vhd:376]
+INFO: [Synth 8-256] done synthesizing module 'design_1' (96#1) [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/synth/design_1.vhd:30]
+INFO: [Synth 8-256] done synthesizing module 'design_1_wrapper' (97#1) [C:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.srcs/sources_1/imports/design_1_wrapper.vhd:26]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:45 ; elapsed = 00:00:54 . Memory (MB): peak = 1481.547 ; gain = 462.512
+Finished RTL Elaboration : Time (s): cpu = 00:00:44 ; elapsed = 00:00:57 . Memory (MB): peak = 1476.844 ; gain = 472.219
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:46 ; elapsed = 00:00:55 . Memory (MB): peak = 1481.547 ; gain = 462.512
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:45 ; elapsed = 00:00:58 . Memory (MB): peak = 1476.844 ; gain = 472.219
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:46 ; elapsed = 00:00:55 . Memory (MB): peak = 1481.547 ; gain = 462.512
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:45 ; elapsed = 00:00:58 . Memory (MB): peak = 1476.844 ; gain = 472.219
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.236 . Memory (MB): peak = 1481.547 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.316 . Memory (MB): peak = 1476.844 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 228 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_0/ila_v6_2/constraints/ila.xdc] for cell 'design_1_i/system_ila_0/U0/ila_lib/U0'
-Finished Parsing XDC File [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_0/ila_v6_2/constraints/ila.xdc] for cell 'design_1_i/system_ila_0/U0/ila_lib/U0'
-Parsing XDC File [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_AXI4Stream_UART_0_0/design_1_AXI4Stream_UART_0_0_board.xdc] for cell 'design_1_i/AXI4Stream_UART_0/U0'
-Finished Parsing XDC File [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_AXI4Stream_UART_0_0/design_1_AXI4Stream_UART_0_0_board.xdc] for cell 'design_1_i/AXI4Stream_UART_0/U0'
-Parsing XDC File [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_board.xdc] for cell 'design_1_i/clk_wiz_0/inst'
-Finished Parsing XDC File [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_board.xdc] for cell 'design_1_i/clk_wiz_0/inst'
-Parsing XDC File [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.xdc] for cell 'design_1_i/clk_wiz_0/inst'
-Finished Parsing XDC File [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.xdc] for cell 'design_1_i/clk_wiz_0/inst'
-INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_wrapper_propImpl.xdc].
+Parsing XDC File [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_0/ila_v6_2/constraints/ila.xdc] for cell 'design_1_i/system_ila_0/U0/ila_lib/U0'
+Finished Parsing XDC File [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_0/ila_v6_2/constraints/ila.xdc] for cell 'design_1_i/system_ila_0/U0/ila_lib/U0'
+Parsing XDC File [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_AXI4Stream_UART_0_0/design_1_AXI4Stream_UART_0_0_board.xdc] for cell 'design_1_i/AXI4Stream_UART_0/U0'
+Finished Parsing XDC File [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_AXI4Stream_UART_0_0/design_1_AXI4Stream_UART_0_0_board.xdc] for cell 'design_1_i/AXI4Stream_UART_0/U0'
+Parsing XDC File [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_board.xdc] for cell 'design_1_i/clk_wiz_0/inst'
+Finished Parsing XDC File [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_board.xdc] for cell 'design_1_i/clk_wiz_0/inst'
+Parsing XDC File [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.xdc] for cell 'design_1_i/clk_wiz_0/inst'
+Finished Parsing XDC File [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.xdc] for cell 'design_1_i/clk_wiz_0/inst'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_wrapper_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/design_1_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
-Parsing XDC File [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0_board.xdc] for cell 'design_1_i/proc_sys_reset_0/U0'
-Finished Parsing XDC File [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0_board.xdc] for cell 'design_1_i/proc_sys_reset_0/U0'
-Parsing XDC File [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0.xdc] for cell 'design_1_i/proc_sys_reset_0/U0'
-Finished Parsing XDC File [c:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0.xdc] for cell 'design_1_i/proc_sys_reset_0/U0'
+Parsing XDC File [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0_board.xdc] for cell 'design_1_i/proc_sys_reset_0/U0'
+Finished Parsing XDC File [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0_board.xdc] for cell 'design_1_i/proc_sys_reset_0/U0'
+Parsing XDC File [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0.xdc] for cell 'design_1_i/proc_sys_reset_0/U0'
+Finished Parsing XDC File [c:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0.xdc] for cell 'design_1_i/proc_sys_reset_0/U0'
 INFO: [Timing 38-2] Deriving generated clocks
-Parsing XDC File [C:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.srcs/constrs_1/imports/LAB_2/pins.xdc]
-Finished Parsing XDC File [C:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.srcs/constrs_1/imports/LAB_2/pins.xdc]
-INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.srcs/constrs_1/imports/LAB_2/pins.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_wrapper_propImpl.xdc].
+Parsing XDC File [C:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.srcs/constrs_1/imports/LAB_2/pins.xdc]
+Finished Parsing XDC File [C:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.srcs/constrs_1/imports/LAB_2/pins.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.srcs/constrs_1/imports/LAB_2/pins.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_wrapper_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/design_1_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
-Parsing XDC File [C:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.runs/synth_1/dont_touch.xdc]
-Finished Parsing XDC File [C:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.runs/synth_1/dont_touch.xdc]
-INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.runs/synth_1/dont_touch.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_wrapper_propImpl.xdc].
+Parsing XDC File [C:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.runs/synth_1/dont_touch.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.runs/synth_1/dont_touch.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_wrapper_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/design_1_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 INFO: [Vivado 12-3272] Current instance is the top level cell 'design_1_i/AXI4Stream_UART_0/U0/FIFO_DATA_RX/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst' of design 'preSynthElab_1' [C:/Xilinx/Vivado/2020.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl:16]
 WARNING: [XPM_CDC_GRAY: TCL-1000] The source and destination clocks are the same. 
@@ -5300,7 +5298,7 @@ Resolution: To avoid this warning, move constraints listed in [.Xil/design_1_wra
 INFO: [Project 1-1715] 3 XPM XDC files have been applied to the design.
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1481.547 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1476.844 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 169 instances were transformed.
   CFGLUT5 => CFGLUT5 (SRL16E, SRLC32E): 136 instances
@@ -5308,24 +5306,24 @@ INFO: [Project 1-111] Unisim Transformation Summary:
   FDR => FDRE: 12 instances
   SRL16 => SRL16E: 1 instance 
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.204 . Memory (MB): peak = 1481.547 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.197 . Memory (MB): peak = 1476.844 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:57 ; elapsed = 00:01:07 . Memory (MB): peak = 1481.547 ; gain = 462.512
+Finished Constraint Validation : Time (s): cpu = 00:00:55 ; elapsed = 00:01:12 . Memory (MB): peak = 1476.844 ; gain = 472.219
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a35tcpg236-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:57 ; elapsed = 00:01:07 . Memory (MB): peak = 1481.547 ; gain = 462.512
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:55 ; elapsed = 00:01:12 . Memory (MB): peak = 1476.844 ; gain = 472.219
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
-Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/system_ila_0/U0/ila_lib/U0. (constraint file  C:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.runs/synth_1/dont_touch.xdc, line 55).
-Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/AXI4Stream_UART_0/U0. (constraint file  C:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.runs/synth_1/dont_touch.xdc, line 65).
-Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/clk_wiz_0/inst. (constraint file  C:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.runs/synth_1/dont_touch.xdc, line 68).
-Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/proc_sys_reset_0/U0. (constraint file  C:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.runs/synth_1/dont_touch.xdc, line 76).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/system_ila_0/U0/ila_lib/U0. (constraint file  C:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.runs/synth_1/dont_touch.xdc, line 55).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/AXI4Stream_UART_0/U0. (constraint file  C:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.runs/synth_1/dont_touch.xdc, line 65).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/clk_wiz_0/inst. (constraint file  C:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.runs/synth_1/dont_touch.xdc, line 68).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/proc_sys_reset_0/U0. (constraint file  C:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.runs/synth_1/dont_touch.xdc, line 76).
 Applied set_property KEEP_HIERARCHY = SOFT for design_1_i. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/system_ila_0. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/system_ila_0/U0. (constraint file  auto generated constraint).
@@ -5361,7 +5359,7 @@ Applied set_property KEEP = true for sys_clock. (constraint file  auto generated
 Applied set_property KEEP = true for usb_uart_rxd. (constraint file  auto generated constraint).
 Applied set_property KEEP = true for design_1_i/AXI4Stream_UART_0/U0/UART_Manager_inst/Inst_uart/tx. (constraint file  auto generated constraint).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:57 ; elapsed = 00:01:07 . Memory (MB): peak = 1481.547 ; gain = 462.512
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:55 ; elapsed = 00:01:12 . Memory (MB): peak = 1476.844 ; gain = 472.219
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-802] inferred FSM for state register 'gen_rst_ic.curr_wrst_state_reg' in module 'xpm_fifo_rst__xdcDup__1'
 INFO: [Synth 8-802] inferred FSM for state register 'gen_rst_ic.curr_rrst_state_reg' in module 'xpm_fifo_rst__xdcDup__1'
@@ -5712,7 +5710,7 @@ INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in m
 ---------------------------------------------------------------------------------------------------
 INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'ltlib_v1_0_0_generic_memrd'
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:02 ; elapsed = 00:01:13 . Memory (MB): peak = 1481.547 ; gain = 462.512
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:59 ; elapsed = 00:01:18 . Memory (MB): peak = 1476.844 ; gain = 472.219
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -5741,7 +5739,7 @@ INFO: [Synth 8-5784] Optimized 1 bits of RAM "gen_wr_a.gen_word_narrow.mem_reg" 
 INFO: [Synth 8-5775] Found 'rw_addr_collision' attribute set to 'no' on SDP RAM gen_wr_a.gen_word_narrow.mem_reg. Setting write mode to NO_CHANGE 
 INFO: [Synth 8-5775] Found 'rw_addr_collision' attribute set to 'no' on SDP RAM gen_wr_a.gen_word_narrow.mem_reg. Setting write mode to NO_CHANGE 
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:20 ; elapsed = 00:01:33 . Memory (MB): peak = 1481.547 ; gain = 462.512
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:17 ; elapsed = 00:01:39 . Memory (MB): peak = 1476.844 ; gain = 472.219
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-5775] Found 'rw_addr_collision' attribute set to 'no' on SDP RAM gen_wr_a.gen_word_narrow.mem_reg. Setting write mode to NO_CHANGE 
 INFO: [Synth 8-5775] Found 'rw_addr_collision' attribute set to 'no' on SDP RAM gen_wr_a.gen_word_narrow.mem_reg. Setting write mode to NO_CHANGE 
@@ -5749,7 +5747,7 @@ INFO: [Synth 8-5775] Found 'rw_addr_collision' attribute set to 'no' on SDP RAM 
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:27 ; elapsed = 00:01:41 . Memory (MB): peak = 1481.547 ; gain = 462.512
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:23 ; elapsed = 00:01:47 . Memory (MB): peak = 1476.844 ; gain = 472.219
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
@@ -5757,7 +5755,7 @@ Start Timing Optimization
 INFO: [Synth 8-5775] Found 'rw_addr_collision' attribute set to 'no' on SDP RAM gen_wr_a.gen_word_narrow.mem_reg. Setting write mode to NO_CHANGE 
 INFO: [Synth 8-5775] Found 'rw_addr_collision' attribute set to 'no' on SDP RAM gen_wr_a.gen_word_narrow.mem_reg. Setting write mode to NO_CHANGE 
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:01:29 ; elapsed = 00:01:43 . Memory (MB): peak = 1481.547 ; gain = 462.512
+Finished Timing Optimization : Time (s): cpu = 00:01:25 ; elapsed = 00:01:49 . Memory (MB): peak = 1476.844 ; gain = 472.219
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
@@ -5770,7 +5768,7 @@ INFO: [Synth 8-7052] The timing for the instance design_1_i/bram_writer_0/U0/bra
 INFO: [Synth 8-7052] The timing for the instance design_1_i/bram_writer_0/U0/bram_controller_inst/xpm_memory_spram_inst/xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_1_5 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
 INFO: [Synth 8-7052] The timing for the instance design_1_i/bram_writer_0/U0/bram_controller_inst/xpm_memory_spram_inst/xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_1_6 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:01:31 ; elapsed = 00:01:46 . Memory (MB): peak = 1481.547 ; gain = 462.512
+Finished Technology Mapping : Time (s): cpu = 00:01:27 ; elapsed = 00:01:52 . Memory (MB): peak = 1476.844 ; gain = 472.219
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -5826,37 +5824,37 @@ WARNING: [Synth 8-3295] tying undriven pin U0:sl_iport0[2] to constant 0
 WARNING: [Synth 8-3295] tying undriven pin U0:sl_iport0[1] to constant 0
 WARNING: [Synth 8-3295] tying undriven pin U0:sl_iport0[0] to constant 0
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:01:35 ; elapsed = 00:01:50 . Memory (MB): peak = 1481.547 ; gain = 462.512
+Finished IO Insertion : Time (s): cpu = 00:01:30 ; elapsed = 00:01:56 . Memory (MB): peak = 1476.844 ; gain = 472.219
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:01:35 ; elapsed = 00:01:50 . Memory (MB): peak = 1481.547 ; gain = 462.512
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:30 ; elapsed = 00:01:56 . Memory (MB): peak = 1476.844 ; gain = 472.219
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:35 ; elapsed = 00:01:50 . Memory (MB): peak = 1481.547 ; gain = 462.512
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:31 ; elapsed = 00:01:56 . Memory (MB): peak = 1476.844 ; gain = 472.219
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:01:35 ; elapsed = 00:01:50 . Memory (MB): peak = 1481.547 ; gain = 462.512
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:31 ; elapsed = 00:01:56 . Memory (MB): peak = 1476.844 ; gain = 472.219
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:01:36 ; elapsed = 00:01:50 . Memory (MB): peak = 1481.547 ; gain = 462.512
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:31 ; elapsed = 00:01:57 . Memory (MB): peak = 1476.844 ; gain = 472.219
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:01:36 ; elapsed = 00:01:50 . Memory (MB): peak = 1481.547 ; gain = 462.512
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:31 ; elapsed = 00:01:57 . Memory (MB): peak = 1476.844 ; gain = 472.219
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -5899,19 +5897,19 @@ Report Cell Usage:
 |28    |OBUF       |     4|
 +------+-----------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:01:36 ; elapsed = 00:01:50 . Memory (MB): peak = 1481.547 ; gain = 462.512
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:31 ; elapsed = 00:01:57 . Memory (MB): peak = 1476.844 ; gain = 472.219
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 38 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:43 ; elapsed = 00:01:43 . Memory (MB): peak = 1481.547 ; gain = 462.512
-Synthesis Optimization Complete : Time (s): cpu = 00:01:36 ; elapsed = 00:01:51 . Memory (MB): peak = 1481.547 ; gain = 462.512
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:40 ; elapsed = 00:01:48 . Memory (MB): peak = 1476.844 ; gain = 472.219
+Synthesis Optimization Complete : Time (s): cpu = 00:01:31 ; elapsed = 00:01:57 . Memory (MB): peak = 1476.844 ; gain = 472.219
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.117 . Memory (MB): peak = 1481.547 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.118 . Memory (MB): peak = 1476.844 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 422 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Chipscope 16-324] Core: design_1_i/system_ila_0/U0/ila_lib UUID: e0698dbb-7e4f-5bce-a82c-fc5d3d48baa4 
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1481.547 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1476.844 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 161 instances were transformed.
   CFGLUT5 => CFGLUT5 (SRL16E, SRLC32E): 136 instances
@@ -5920,11 +5918,11 @@ INFO: [Project 1-111] Unisim Transformation Summary:
   SRL16 => SRL16E: 1 instance 
 
 INFO: [Common 17-83] Releasing license: Synthesis
-348 Infos, 50 Warnings, 0 Critical Warnings and 0 Errors encountered.
+348 Infos, 49 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:01:44 ; elapsed = 00:02:09 . Memory (MB): peak = 1481.547 ; gain = 462.512
+synth_design: Time (s): cpu = 00:01:38 ; elapsed = 00:02:19 . Memory (MB): peak = 1476.844 ; gain = 472.219
 INFO: [Common 17-600] The following parameters have non-default value.
 tcl.collectionResultDisplayLimit
-INFO: [Common 17-1381] The checkpoint 'C:/Users/chiar/Desktop/DESD-LAB2-ENCRYPTED.xpr/LAB2_DESD/DESD-LAB2/DESD-LAB2.runs/synth_1/design_1_wrapper.dcp' has been generated.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/chiar/Desktop/Lab2/LAB2_DESD/DESD-LAB2_pack/DESD-LAB2.runs/synth_1/design_1_wrapper.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file design_1_wrapper_utilization_synth.rpt -pb design_1_wrapper_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Fri Apr 18 16:12:16 2025...
+INFO: [Common 17-206] Exiting Vivado at Sat Apr 19 10:18:42 2025...

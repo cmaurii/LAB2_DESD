@@ -27,11 +27,11 @@ architecture rtl of packetizer is
     type state_type is (IDLE, SEND_HEADER, RECEIVE, SEND, SEND_FOOTER);
     signal state : state_type := IDLE;
 
-    signal data_buffer   : std_logic_vector(7 downto 0);
-    signal last_buffered : std_logic := '0'; --To buffer the tlast
-
-    signal m_axis_tdata_int  : std_logic_vector(7 downto 0);
-    signal m_axis_tvalid_int : std_logic := '0';
+    signal data_buffer   : std_logic_vector(7 downto 0); --Buffer to store the data
+    signal last_buffered : std_logic := '0'; --Buffer to store the tlast that arrives with the last data of the packet
+    
+    signal m_axis_tdata_int  : std_logic_vector(7 downto 0); --Internal signal to read the out port
+    signal m_axis_tvalid_int : std_logic := '0'; --Internal signal to read the out port
 
 begin
     -- Assign outputs
@@ -46,14 +46,14 @@ begin
             m_axis_tvalid_int <= '0';
             m_axis_tdata_int  <= (others => '0');
             data_buffer       <= (others => '0');
-            last_buffered     <= '0'; --I haven't received yet the tlast
+            last_buffered     <= '0'; --we haven't received yet the tlast
 
         elsif rising_edge(clk) then
             case state is
 
                 when IDLE =>
-                    -- Go to SEND_HEADER only when m_axis is ready and I'm starting to receive data which are valid
-                    -- If I don't check the tvalid I would add an header also at the end of the packet
+                    -- Go to SEND_HEADER only when the header can be sent (m_tready ->1) and we're starting to receive data which are valid
+                    -- If there wasn't the check on the tvalid an header would have been added also at the end of the packet
                     if m_axis_tready = '1' and s_axis_tvalid = '1' then
                         m_axis_tdata_int  <= std_logic_vector(to_unsigned(HEADER, 8));
                         m_axis_tvalid_int <= '1';
@@ -61,25 +61,31 @@ begin
                     end if;
 
                 when SEND_HEADER =>
+                --Let's check if the handshake has been done properly, only after that we're ready to receive the data flow
                     if m_axis_tvalid_int = '1' and m_axis_tready = '1' then
                         m_axis_tvalid_int <= '0'; --After having sent the header the output won't be anymore valid
                         state <= RECEIVE;
                     end if;
 
                 when RECEIVE =>
-                --I can receive the data
-                    if s_axis_tvalid = '1' and state = RECEIVE then
+                --we can receive the data : s_axis_tready is 1 only in this state!
+                    if s_axis_tvalid = '1' then
                         data_buffer   <= s_axis_tdata; --buffer of the data
                         last_buffered <= s_axis_tlast; --buffer of the tlast to keep synchronized the data and the tlast
                         state <= SEND;
                     end if;
 
                 when SEND =>
-                    if m_axis_tvalid_int = '0' then
+              
+                    --with this, we check if the bus is free of data --> no risk of loosing any data
+                    --the sent data have already been received by the next module (see line 87)
+                    if m_axis_tvalid_int = '0' then 
                         m_axis_tdata_int  <= data_buffer;
                         m_axis_tvalid_int <= '1'; --The data is valid
+                        
+                    --The state is the same until the correct handshake is happened 
                     elsif m_axis_tvalid_int = '1' and m_axis_tready = '1' then
-                        m_axis_tvalid_int <= '0'; --I change the tvalid only if I have already received tready
+                        m_axis_tvalid_int <= '0'; --we change the tvalid only if we have already received tready --> the data is already been read
 
                         --Next state is defined on whatever I have already received the tlast or not
                         --The state is changed only if the master has already received the data in the buffer
@@ -91,14 +97,18 @@ begin
                     end if;
 
                 when SEND_FOOTER =>
+                --We reach this state only after having received the tlast
+                
+                    --With this, as before, we check if the bus is free of data--> no risk of loosing any data
                     if m_axis_tvalid_int = '0' then
                         m_axis_tdata_int  <= std_logic_vector(to_unsigned(FOOTER, 8));
                         m_axis_tvalid_int <= '1';
+                    
+                    --The state is the same until the correct handshake is happened 
                     elsif m_axis_tvalid_int = '1' and m_axis_tready = '1' then
                         m_axis_tvalid_int <= '0';
                         state <= IDLE;
                     end if;
-
             end case;
         end if;
     end process;
