@@ -1,5 +1,5 @@
 
---new edition
+-- second new edition 
 library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
@@ -35,7 +35,7 @@ architecture rtl of bram_writer is
 
     component bram_controller is
         generic (
-            ADDR_WIDTH: POSITIVE :=4
+            ADDR_WIDTH: POSITIVE :=16
         );
         port (
             clk   : in std_logic;
@@ -59,7 +59,7 @@ architecture rtl of bram_writer is
     signal tlast_reg : std_logic :='0';
     
     --output registrati
-    signal tready_reg: std_logic :='0';
+    signal tready_reg: std_logic :='1';
     signal start_conv_reg: std_logic :='0';
 
     type state_type is (RESET, IDLE, WRITE, ADDRUP, START_READ, READ);
@@ -69,7 +69,7 @@ begin
 
     s_axis_tready<=tready_reg;
     start_conv<=start_conv_reg;
-    conv_data<=dout(6 downto 0);
+    --conv_data<=dout(6 downto 0);
 
     bram_controller_inst: bram_controller 
     port map(
@@ -126,22 +126,23 @@ begin
 	end process;
 
 	
-	outputLogic : process (state, conv_addr)
+	outputLogic : process (state, conv_addr, dout)
 	begin
 
 		case (state) is
 
 			when RESET =>
-                tready_reg<='0';
+                tready_reg<='1';
                 we<='0';
                 start_conv_reg<='0';
                 addr<=(others=>'0');
+                conv_data<=(others=>'0');
 
 			when IDLE =>
-				tready_reg<='1';
+				--tready_reg<='1';
 
 			when WRITE =>
-                tready_reg<='0';
+                --tready_reg<='0';
                 we<='1';
 
 			when ADDRUP=>
@@ -149,12 +150,14 @@ begin
 				addr<=addr+1;
      
 			when START_READ =>
+			    tready_reg<='0';
                 we<='0';
                 start_conv_reg<='1';
 
 			when READ =>
 				start_conv_reg<= '0';
                 addr<=unsigned(conv_addr);
+                conv_data<=dout(6 downto 0);
 
 		end case;
 
